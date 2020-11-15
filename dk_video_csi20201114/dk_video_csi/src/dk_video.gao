@@ -1,0 +1,259 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="eth_txc_d" trig_type="0" storage_depth="4096" window_num="1" capture_amount="4096" trigger_pos="10">
+        <SignalList>
+            <Signal>img_req_Z</Signal>
+            <Signal>img_vs_Z</Signal>
+            <Bus name="img_data[15:0]">
+                <Signal>img_data[15]</Signal>
+                <Signal>img_data[14]</Signal>
+                <Signal>img_data[13]</Signal>
+                <Signal>img_data[12]</Signal>
+                <Signal>img_data[11]</Signal>
+                <Signal>img_data[10]</Signal>
+                <Signal>img_data[9]</Signal>
+                <Signal>img_data[8]</Signal>
+                <Signal>img_data[7]</Signal>
+                <Signal>img_data[6]</Signal>
+                <Signal>img_data[5]</Signal>
+                <Signal>img_data[4]</Signal>
+                <Signal>img_data[3]</Signal>
+                <Signal>img_data[2]</Signal>
+                <Signal>img_data[1]</Signal>
+                <Signal>img_data[0]</Signal>
+            </Bus>
+            <Signal>u_img_data_pkt/sync_fifo_2048x32b_inst/WrEn</Signal>
+            <Bus name="u_img_data_pkt/Data[31:0]">
+                <Signal>u_img_data_pkt/Data[31]</Signal>
+                <Signal>u_img_data_pkt/Data[30]</Signal>
+                <Signal>u_img_data_pkt/Data[29]</Signal>
+                <Signal>u_img_data_pkt/Data[28]</Signal>
+                <Signal>u_img_data_pkt/Data[27]</Signal>
+                <Signal>u_img_data_pkt/Data[26]</Signal>
+                <Signal>u_img_data_pkt/Data[25]</Signal>
+                <Signal>u_img_data_pkt/Data[24]</Signal>
+                <Signal>u_img_data_pkt/Data[23]</Signal>
+                <Signal>u_img_data_pkt/Data[22]</Signal>
+                <Signal>u_img_data_pkt/Data[21]</Signal>
+                <Signal>u_img_data_pkt/Data[20]</Signal>
+                <Signal>u_img_data_pkt/Data[19]</Signal>
+                <Signal>u_img_data_pkt/Data[18]</Signal>
+                <Signal>u_img_data_pkt/Data[17]</Signal>
+                <Signal>u_img_data_pkt/Data[16]</Signal>
+                <Signal>u_img_data_pkt/Data[15]</Signal>
+                <Signal>u_img_data_pkt/Data[14]</Signal>
+                <Signal>u_img_data_pkt/Data[13]</Signal>
+                <Signal>u_img_data_pkt/Data[12]</Signal>
+                <Signal>u_img_data_pkt/Data[11]</Signal>
+                <Signal>u_img_data_pkt/Data[10]</Signal>
+                <Signal>u_img_data_pkt/Data[9]</Signal>
+                <Signal>u_img_data_pkt/Data[8]</Signal>
+                <Signal>u_img_data_pkt/Data[7]</Signal>
+                <Signal>u_img_data_pkt/Data[6]</Signal>
+                <Signal>u_img_data_pkt/Data[5]</Signal>
+                <Signal>u_img_data_pkt/Data[4]</Signal>
+                <Signal>u_img_data_pkt/Data[3]</Signal>
+                <Signal>u_img_data_pkt/Data[2]</Signal>
+                <Signal>u_img_data_pkt/Data[1]</Signal>
+                <Signal>u_img_data_pkt/Data[0]</Signal>
+            </Bus>
+            <Bus name="udp_tx_data_img[31:0]">
+                <Signal>udp_tx_data_img[31]</Signal>
+                <Signal>udp_tx_data_img[30]</Signal>
+                <Signal>udp_tx_data_img[29]</Signal>
+                <Signal>udp_tx_data_img[28]</Signal>
+                <Signal>udp_tx_data_img[27]</Signal>
+                <Signal>udp_tx_data_img[26]</Signal>
+                <Signal>udp_tx_data_img[25]</Signal>
+                <Signal>udp_tx_data_img[24]</Signal>
+                <Signal>udp_tx_data_img[23]</Signal>
+                <Signal>udp_tx_data_img[22]</Signal>
+                <Signal>udp_tx_data_img[21]</Signal>
+                <Signal>udp_tx_data_img[20]</Signal>
+                <Signal>udp_tx_data_img[19]</Signal>
+                <Signal>udp_tx_data_img[18]</Signal>
+                <Signal>udp_tx_data_img[17]</Signal>
+                <Signal>udp_tx_data_img[16]</Signal>
+                <Signal>udp_tx_data_img[15]</Signal>
+                <Signal>udp_tx_data_img[14]</Signal>
+                <Signal>udp_tx_data_img[13]</Signal>
+                <Signal>udp_tx_data_img[12]</Signal>
+                <Signal>udp_tx_data_img[11]</Signal>
+                <Signal>udp_tx_data_img[10]</Signal>
+                <Signal>udp_tx_data_img[9]</Signal>
+                <Signal>udp_tx_data_img[8]</Signal>
+                <Signal>udp_tx_data_img[7]</Signal>
+                <Signal>udp_tx_data_img[6]</Signal>
+                <Signal>udp_tx_data_img[5]</Signal>
+                <Signal>udp_tx_data_img[4]</Signal>
+                <Signal>udp_tx_data_img[3]</Signal>
+                <Signal>udp_tx_data_img[2]</Signal>
+                <Signal>udp_tx_data_img[1]</Signal>
+                <Signal>udp_tx_data_img[0]</Signal>
+            </Bus>
+            <Signal>tx_start_en</Signal>
+            <Signal>off0_syn_de</Signal>
+            <Signal>tx_req_Z</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>img_req_Z</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1">
+                <SignalList>
+                    <Bus restorename="img_data[15:0]">
+                        <Signal>img_data[15]</Signal>
+                        <Signal>img_data[14]</Signal>
+                        <Signal>img_data[13]</Signal>
+                        <Signal>img_data[12]</Signal>
+                        <Signal>img_data[11]</Signal>
+                        <Signal>img_data[10]</Signal>
+                        <Signal>img_data[9]</Signal>
+                        <Signal>img_data[8]</Signal>
+                        <Signal>img_data[7]</Signal>
+                        <Signal>img_data[6]</Signal>
+                        <Signal>img_data[5]</Signal>
+                        <Signal>img_data[4]</Signal>
+                        <Signal>img_data[3]</Signal>
+                        <Signal>img_data[2]</Signal>
+                        <Signal>img_data[1]</Signal>
+                        <Signal>img_data[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5">
+                <SignalList>
+                    <Signal>img_vs_Z</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="6">
+                <SignalList>
+                    <Signal>u_img_data_pkt/sync_fifo_2048x32b_inst/WrEn</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="7">
+                <SignalList>
+                    <Bus restorename="udp_tx_data_img[31:0]">
+                        <Signal>udp_tx_data_img[31]</Signal>
+                        <Signal>udp_tx_data_img[30]</Signal>
+                        <Signal>udp_tx_data_img[29]</Signal>
+                        <Signal>udp_tx_data_img[28]</Signal>
+                        <Signal>udp_tx_data_img[27]</Signal>
+                        <Signal>udp_tx_data_img[26]</Signal>
+                        <Signal>udp_tx_data_img[25]</Signal>
+                        <Signal>udp_tx_data_img[24]</Signal>
+                        <Signal>udp_tx_data_img[23]</Signal>
+                        <Signal>udp_tx_data_img[22]</Signal>
+                        <Signal>udp_tx_data_img[21]</Signal>
+                        <Signal>udp_tx_data_img[20]</Signal>
+                        <Signal>udp_tx_data_img[19]</Signal>
+                        <Signal>udp_tx_data_img[18]</Signal>
+                        <Signal>udp_tx_data_img[17]</Signal>
+                        <Signal>udp_tx_data_img[16]</Signal>
+                        <Signal>udp_tx_data_img[15]</Signal>
+                        <Signal>udp_tx_data_img[14]</Signal>
+                        <Signal>udp_tx_data_img[13]</Signal>
+                        <Signal>udp_tx_data_img[12]</Signal>
+                        <Signal>udp_tx_data_img[11]</Signal>
+                        <Signal>udp_tx_data_img[10]</Signal>
+                        <Signal>udp_tx_data_img[9]</Signal>
+                        <Signal>udp_tx_data_img[8]</Signal>
+                        <Signal>udp_tx_data_img[7]</Signal>
+                        <Signal>udp_tx_data_img[6]</Signal>
+                        <Signal>udp_tx_data_img[5]</Signal>
+                        <Signal>udp_tx_data_img[4]</Signal>
+                        <Signal>udp_tx_data_img[3]</Signal>
+                        <Signal>udp_tx_data_img[2]</Signal>
+                        <Signal>udp_tx_data_img[1]</Signal>
+                        <Signal>udp_tx_data_img[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="8">
+                <SignalList>
+                    <Signal>tx_start_en</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="9">
+                <SignalList>
+                    <Signal>off0_syn_de</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="10">
+                <SignalList>
+                    <Signal>tx_req_Z</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="11">
+                <SignalList>
+                    <Bus restorename="u_img_data_pkt/Data[31:0]">
+                        <Signal>u_img_data_pkt/Data[31]</Signal>
+                        <Signal>u_img_data_pkt/Data[30]</Signal>
+                        <Signal>u_img_data_pkt/Data[29]</Signal>
+                        <Signal>u_img_data_pkt/Data[28]</Signal>
+                        <Signal>u_img_data_pkt/Data[27]</Signal>
+                        <Signal>u_img_data_pkt/Data[26]</Signal>
+                        <Signal>u_img_data_pkt/Data[25]</Signal>
+                        <Signal>u_img_data_pkt/Data[24]</Signal>
+                        <Signal>u_img_data_pkt/Data[23]</Signal>
+                        <Signal>u_img_data_pkt/Data[22]</Signal>
+                        <Signal>u_img_data_pkt/Data[21]</Signal>
+                        <Signal>u_img_data_pkt/Data[20]</Signal>
+                        <Signal>u_img_data_pkt/Data[19]</Signal>
+                        <Signal>u_img_data_pkt/Data[18]</Signal>
+                        <Signal>u_img_data_pkt/Data[17]</Signal>
+                        <Signal>u_img_data_pkt/Data[16]</Signal>
+                        <Signal>u_img_data_pkt/Data[15]</Signal>
+                        <Signal>u_img_data_pkt/Data[14]</Signal>
+                        <Signal>u_img_data_pkt/Data[13]</Signal>
+                        <Signal>u_img_data_pkt/Data[12]</Signal>
+                        <Signal>u_img_data_pkt/Data[11]</Signal>
+                        <Signal>u_img_data_pkt/Data[10]</Signal>
+                        <Signal>u_img_data_pkt/Data[9]</Signal>
+                        <Signal>u_img_data_pkt/Data[8]</Signal>
+                        <Signal>u_img_data_pkt/Data[7]</Signal>
+                        <Signal>u_img_data_pkt/Data[6]</Signal>
+                        <Signal>u_img_data_pkt/Data[5]</Signal>
+                        <Signal>u_img_data_pkt/Data[4]</Signal>
+                        <Signal>u_img_data_pkt/Data[3]</Signal>
+                        <Signal>u_img_data_pkt/Data[2]</Signal>
+                        <Signal>u_img_data_pkt/Data[1]</Signal>
+                        <Signal>u_img_data_pkt/Data[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="X" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="X" value1="0" trigger="2"/>
+            <MatchUnit index="3" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="X" value1="0" trigger="3"/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="X" value1="0" trigger="5"/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="X" value1="0" trigger="8"/>
+            <MatchUnit index="9" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="X" value1="0" trigger="9"/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0&amp;M8&amp;M9</Expression>
+        </Expressions>
+    </AoCore>
+</GAO_CONFIG>

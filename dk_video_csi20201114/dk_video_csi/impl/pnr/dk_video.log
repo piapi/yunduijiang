@@ -1,0 +1,38 @@
+Reading netlist file: "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gwsynthesis\dk_video.vg"
+Parsing netlist file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gwsynthesis\dk_video.vg" completed
+Processing netlist completed
+Parsing netlist file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gao\gao.v" completed
+Processing netlist completed
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "I_clk" and "clk_x4"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "I_clk" and "clk_x4i"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "dma_clk" and "clk_x4i"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "dma_clk" and "CSI2RAW8_inst/pll/pll_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "CSI2RAW8_inst/pll/pll_inst/CLKOUT.default_gen_clk" and "dma_clk"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'aud_bclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Placement and routing completed
+Running timing analysis......
+[95%] Timing analysis completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'aud_bclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+Placement and routing completed for GAO design
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\pnr\dk_video.power.html" completed
+Generate file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\pnr\dk_video.pin.html" completed
+Generate file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\pnr\dk_video.rpt.html" completed
+Generate file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\pnr\dk_video.rpt.txt" completed
+Generate file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\pnr\dk_video.tr.html" completed
+Sat Nov 14 14:55:52 2020
+

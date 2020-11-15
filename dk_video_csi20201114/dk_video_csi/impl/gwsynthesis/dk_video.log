@@ -1,0 +1,352 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\TMDS_PLL\TMDS_PLL.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp_rx.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp_tx.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\crc32_d8.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\bayer_rgb.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\ram_line.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\shift_line.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\video_format_detect.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_defines.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_top.v'
+Analyzing included file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_defines.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_top.v":22)
+Back to file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_top.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_top.v":22)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v'
+Analyzing included file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_defines.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":22)
+Back to file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":22)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\eth_ctrl.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_sc_top\sync_fifo_2048x32b.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\aync_fifo_2048x16b.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_write_16_128.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_defines.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_top.v'
+Analyzing included file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_defines.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_top.v":24)
+Back to file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_top.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_top.v":24)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp'
+Analyzing included file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_defines.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":1040)
+Back to file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":1040)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\gmii_to_rgmii.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v'
+WARN  (EX3788) : Block identifier is required on this block("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":174)
+WARN  (EX3788) : Block identifier is required on this block("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":187)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v'
+WARN  (EX3788) : Block identifier is required on this block("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":74)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_pll\pix_pll.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_rpll\gowin_rpll.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\i2c_master\i2c_master.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\img_data_pkt.v'
+WARN  (EX3801) : Parameter 'IDLE' becomes localparam in 'img_data_pkt' with formal parameter declaration list("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\img_data_pkt.v":108)
+WARN  (EX3801) : Parameter 'AUD' becomes localparam in 'img_data_pkt' with formal parameter declaration list("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\img_data_pkt.v":109)
+WARN  (EX3801) : Parameter 'IMG' becomes localparam in 'img_data_pkt' with formal parameter declaration list("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\img_data_pkt.v":110)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\key_debounceN.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\CSI2RAW8.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\control_capture_lane2.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\fifo_top\fifo16b_8b.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\pll_8bit_2lane.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\raw8_lane2.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\I2C_Interface.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Controller.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Registers.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\testpattern.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_rx.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_tx.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v'
+Analyzing included file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_defines.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":2)
+Back to file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":2)
+WARN  (EX3638) : 'rst_n' is already implicitly declared on line 248("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":254)
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_cache_rx_ctrl.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_cache_tx_ctrl.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_receive.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_send.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\i2c_dri.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\i2c_reg_cfg.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_config.v'
+Analyzing Verilog file 'C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_ctrl.v'
+Compiling module 'video_top'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":4)
+Compiling module 'key_debounceN(DEBCNT2=32'b01011111010111100001000000000)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\key_debounceN.v":35)
+Compiling module 'key_debounceN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\key_debounceN.v":35)
+Compiling module 'gmii_to_rgmii'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\gmii_to_rgmii.v":2)
+Compiling module 'rgmii_rx'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":4)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SDTAP'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":102)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SETN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":103)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'VALUE'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":104)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SDTAP'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":169)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SETN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":170)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'VALUE'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":171)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SDTAP'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":169)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SETN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":170)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'VALUE'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":171)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SDTAP'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":169)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SETN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":170)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'VALUE'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":171)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SDTAP'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":169)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'SETN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":170)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'VALUE'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v":171)
+Compiling module 'rgmii_tx'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":2)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":39)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":71)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":71)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":71)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'TX'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v":71)
+Compiling module 'arp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp.v":2)
+Compiling module 'arp_rx(BOARD_IP=32'b11000000101010000000000100001010)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp_rx.v":2)
+Compiling module 'arp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp_tx.v":2)
+Compiling module 'crc32_d8'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\crc32_d8.v":2)
+Compiling module 'udp(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp.v":2)
+Compiling module 'udp_rx(BOARD_IP=32'b11000000101010000000000100001010)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_rx.v":2)
+Compiling module 'udp_tx(BOARD_IP=32'b11000000101010000000000100001010,DES_IP=32'b11000000101010000000000101100110)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_tx.v":4)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_tx.v":328)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_tx.v":358)
+WARN  (EX3073) : Port 'Wnum' remains unconnected for this instance("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_cache_rx_ctrl.v":72)
+Compiling module 'audio_cache_rx_ctrl'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_cache_rx_ctrl.v":2)
+Compiling module 'async_fifo_512x32b'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":657)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+Compiling module 'eth_ctrl'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\eth_ctrl.v":2)
+Compiling module 'img_data_pkt'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\img_data_pkt.v":2)
+Compiling module 'sync_fifo_2048x32b'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_sc_top\sync_fifo_2048x32b.v":446)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_sc_top\sync_fifo_2048x32b.v":0)
+Compiling module 'Gowin_rPLL'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_rpll\gowin_rpll.v":9)
+Compiling module 'wm8978_ctrl'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_ctrl.v":2)
+Compiling module 'wm8978_config'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_config.v":4)
+Compiling module 'i2c_reg_cfg'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\i2c_reg_cfg.v":2)
+Compiling module 'i2c_dri(SLAVE_ADDR=7'b011010)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\i2c_dri.v":2)
+WARN  (EX3670) : Actual bit length 8 differs from formal bit length 16 for port 'i2c_addr'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_config.v":56)
+Compiling module 'audio_receive'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_receive.v":2)
+Compiling module 'audio_send'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_send.v":2)
+Compiling module 'pix_pll'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_pll\pix_pll.v":8)
+Compiling module 'OV5647_Controller'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Controller.v":1)
+Compiling module 'OV5647_Registers'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Registers.v":1)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Registers.v":75)
+Compiling module 'I2C_Interface'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\I2C_Interface.v":14)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\I2C_Interface.v":94)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\I2C_Interface.v":185)
+WARN  (EX3073) : Port 'error' remains unconnected for this instance("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\CSI2RAW8.v":112)
+Compiling module 'CSI2RAW8'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\CSI2RAW8.v":1)
+Compiling module 'DPHY_RX_TOP'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":1590)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":0)
+Compiling module 'control_capture_lane2'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\control_capture_lane2.v":1)
+Compiling module 'raw8_lane2'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\raw8_lane2.v":2)
+Compiling module 'fifo16b_8b'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\fifo_top\fifo16b_8b.v":592)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\fifo_top\fifo16b_8b.v":0)
+WARN  (EX3670) : Actual bit length 9 differs from formal bit length 8 for port 'Q'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\raw8_lane2.v":30)
+WARN  (EX3670) : Actual bit length 8 differs from formal bit length 9 for port 'pixdata'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\CSI2RAW8.v":127)
+Compiling module 'pll_8bit_2lane'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\pll_8bit_2lane.v":9)
+WARN  (EX1987) : Input port 'line_length_detect' is not connected on this instance("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\CSI2RAW8.v":112)
+Compiling module 'bayer_rgb'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\bayer_rgb.v":12)
+Compiling module 'video_format_detect'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\video_format_detect.v":17)
+Compiling module 'shift_line(DATA_WIDTH=8)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\shift_line.v":12)
+Compiling module 'ram_line(DATA_WIDTH=8)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\ram_line.v":12)
+WARN  (EX3791) : Expression size 12 truncated to fit in target size 11("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\shift_line.v":53)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 11("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\shift_line.v":63)
+Compiling module 'vfb_top(IMAGE_SIZE=28'b0100000000000000000000000,ADDR_WIDTH=28)'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_top.v":26)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module 'fifo_dma_write_16_128'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_write_16_128.v":829)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_write_16_128.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module 'fifo_dma_read_128_16'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":1066)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (EX3791) : Expression size ** truncated to fit in target size **("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+WARN  (EX3670) : Actual bit length ** differs from formal bit length ** for port '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp":0)
+Compiling module 'DDR3_Memory_Interface_Top'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":11680)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module '**'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v":0)
+Compiling module 'syn_gen'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\syn_code\syn_gen.v":13)
+Compiling module 'TMDS_PLL'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\TMDS_PLL\TMDS_PLL.v":8)
+WARN  (EX3670) : Actual bit length 32 differs from formal bit length 1 for port 'CALIB'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":876)
+Compiling module 'DVI_TX_Top'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_top.v":24)
+Compiling module 'rgb2dvi'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":31)
+WARN  (EX3044) : Overwriting previous value of parameter 'u_OSER10_clk.GSREN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":195)
+WARN  (EX3044) : Overwriting previous value of parameter 'u_OSER10_clk.LSREN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":196)
+WARN  (EX3044) : Overwriting previous value of parameter 'u_OSER10_clk.GSREN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":224)
+WARN  (EX3044) : Overwriting previous value of parameter 'u_OSER10_clk.LSREN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":225)
+WARN  (EX3044) : Overwriting previous value of parameter 'u_OSER10_clk.GSREN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":256)
+WARN  (EX3044) : Overwriting previous value of parameter 'u_OSER10_clk.LSREN'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":257)
+Compiling module 'TMDS8b10b'("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":273)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":340)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":342)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":346)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 5("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v":348)
+WARN  (EX1998) : Net 'off0_syn_data[15]' does not have a driver("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":184)
+WARN  (EX1947) : Input port 'sr_req' remains unconnected for this instance("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":805)
+WARN  (EX1987) : Input port 'ref_req' is not connected on this instance("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v":805)
+NOTE  (EX0101) : Current top module is "video_top"
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_8_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_3_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/n214_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_8_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/n290_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_3_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_7_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_4_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.wcount_r_7_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_3_s3"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Equal.rcount_w_4_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_9_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_8_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_7_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_4_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_3_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Wnum_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_9_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_8_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_7_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_4_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_3_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/Rnum_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_0_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_1_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_2_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_3_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_4_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_5_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_6_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_7_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_8_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/rcnt_sub_9_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_0_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_1_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_2_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_3_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_4_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_5_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_6_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_7_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_8_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_audio_cache_rx_ctrl/async_fifo_512x32b_inst1/fifo_inst/wcnt_sub_9_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_8_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_3_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/n214_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_4_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Equal.wcount_r_7_s1"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_9_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_8_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_7_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_4_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_3_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Rnum_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_0_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_1_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_2_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_3_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_4_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_5_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_6_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_7_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_8_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/rcnt_sub_9_s"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "pix_pll_inst/pll_inst"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_pll\pix_pll.v":42)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[0]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[1]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[2]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[3]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[4]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[5]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/wcnt_sub_m[6]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[6]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[5]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[4]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[3]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[2]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[1]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "vfb_top_inst/vfb_wrapper_inst/u0_dma_frame_buffer/u_dma_read_ctrl/fifo_dma_read_128_16_inst/fifo_inst/Wnum_Z[0]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/sync_fifo_2048x32b_inst/fifo_sc_inst/Wnum_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_sc_top\sync_fifo_2048x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_7_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_6_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_5_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_4_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_3_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_2_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_1_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "u_img_data_pkt/async_fifo_512x32b_inst/fifo_inst/Wnum_0_s0"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v":0)
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+WARN  (NL0001) : Sweep user defined dangling instance "CSI2RAW8_inst/u_raw8_lane2/u_fifo16b_8b/fifo_inst/Q_cZ[1]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\fifo_top\fifo16b_8b.v":0)
+WARN  (NL0001) : Sweep user defined dangling instance "CSI2RAW8_inst/u_raw8_lane2/u_fifo16b_8b/fifo_inst/Q_cZ[0]"("C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\fifo_top\fifo16b_8b.v":0)
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gwsynthesis\dk_video.vg" completed
+[100%] Generate report file "C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gwsynthesis\dk_video_syn.rpt.html" completed
+GowinSynthesis finish

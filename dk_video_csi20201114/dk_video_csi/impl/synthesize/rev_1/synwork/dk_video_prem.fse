@@ -1,0 +1,98 @@
+
+fsm_encoding {7700708} onehot
+
+fsm_state_encoding {7700708} st_idle {00001}
+
+fsm_state_encoding {7700708} st_preamble {00010}
+
+fsm_state_encoding {7700708} st_eth_head {00100}
+
+fsm_state_encoding {7700708} st_arp_data {01000}
+
+fsm_state_encoding {7700708} st_rx_end {10000}
+
+fsm_registers {7700708} {cur_state[4]}  {cur_state[3]}  {cur_state[2]}  {cur_state[1]}  {cur_state[0]} 
+
+fsm_encoding {8990997} original
+
+fsm_state_encoding {8990997} st_idle {00001}
+
+fsm_state_encoding {8990997} st_preamble {00010}
+
+fsm_state_encoding {8990997} st_eth_head {00100}
+
+fsm_state_encoding {8990997} st_arp_data {01000}
+
+fsm_state_encoding {8990997} st_crc {10000}
+
+fsm_registers {8990997} {cur_state[4]}  {cur_state[3]}  {cur_state[2]}  {cur_state[1]}  {cur_state[0]} 
+
+fsm_encoding {5213901395} original
+
+fsm_state_encoding {5213901395} st_idle {0000001}
+
+fsm_state_encoding {5213901395} st_check_sum {0000010}
+
+fsm_state_encoding {5213901395} st_preamble {0000100}
+
+fsm_state_encoding {5213901395} st_eth_head {0001000}
+
+fsm_state_encoding {5213901395} st_ip_head {0010000}
+
+fsm_state_encoding {5213901395} st_tx_data {0100000}
+
+fsm_state_encoding {5213901395} st_crc {1000000}
+
+fsm_registers {5213901395} {cur_state[6]}  {cur_state[5]}  {cur_state[4]}  {cur_state[3]}  {cur_state[2]}  {cur_state[1]}  {cur_state[0]} 
+
+fsm_encoding {57960964} onehot
+
+fsm_state_encoding {57960964} st_idle {00000001}
+
+fsm_state_encoding {57960964} st_sladdr {00000010}
+
+fsm_state_encoding {57960964} st_addr16 {00000100}
+
+fsm_state_encoding {57960964} st_addr8 {00001000}
+
+fsm_state_encoding {57960964} st_data_wr {00010000}
+
+fsm_state_encoding {57960964} st_addr_rd {00100000}
+
+fsm_state_encoding {57960964} st_data_rd {01000000}
+
+fsm_state_encoding {57960964} st_stop {10000000}
+
+fsm_registers {57960964} {cur_state[7]}  {cur_state[6]}  {cur_state[5]}  {cur_state[4]}  {cur_state[3]}  {cur_state[2]}  {cur_state[1]}  {cur_state[0]} 
+
+fsm_encoding {2996729673} sequential
+
+fsm_state_encoding {2996729673} 00 {00}
+
+fsm_state_encoding {2996729673} 01 {01}
+
+fsm_state_encoding {2996729673} 10 {10}
+
+fsm_registers {2996729673} {wr_ptr[1]}  {wr_ptr[0]} 
+
+fsm_encoding {2998829882} sequential
+
+fsm_state_encoding {2998829882} 00 {00}
+
+fsm_state_encoding {2998829882} 01 {01}
+
+fsm_state_encoding {2998829882} 10 {10}
+
+fsm_registers {2998829882} {rd_ptr[1]}  {rd_ptr[0]} 
+
+fsm_encoding {291113011131} sequential
+
+fsm_state_encoding {291113011131} ST_IDLE {00}
+
+fsm_state_encoding {291113011131} ST_RDY {01}
+
+fsm_state_encoding {291113011131} ST_OFF0_READ_DDR {10}
+
+fsm_state_encoding {291113011131} ST_IFF0_WRITE_DDR {11}
+
+fsm_registers {291113011131} {current_state[1]}  {current_state[0]} 

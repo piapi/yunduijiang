@@ -1,0 +1,73 @@
+---------------------------------------
+Resource Usage Report for video_top 
+
+Mapping to part: gw2a_18pbga484-8
+Cell usage:
+ALU             903 uses
+BUFG            2 uses
+CLKDIV          3 uses
+DFF             191 uses
+DFFC            1817 uses
+DFFCE           1209 uses
+DFFE            289 uses
+DFFNC           1 use
+DFFNP           16 uses
+DFFP            123 uses
+DFFPE           185 uses
+DFFR            51 uses
+DFFRE           151 uses
+DFFS            14 uses
+DFFSE           52 uses
+DHCEN           2 uses
+DL              8 uses
+DLC             2 uses
+DLCE            2 uses
+DLL             1 use
+DLNC            6 uses
+DQS             2 uses
+GSR             7 uses
+IDDR            5 uses
+IDES8           2 uses
+IDES8_MEM       16 uses
+INV             80 uses
+IODELAY         23 uses
+MUX2_LUT5       188 uses
+MUX2_LUT6       67 uses
+MUX2_LUT7       2 uses
+ODDR            5 uses
+OSER10          4 uses
+OSER8           24 uses
+OSER8_MEM       20 uses
+PLL             3 uses
+RAM16SDP2       1 use
+RAM16SDP4       73 uses
+SDP             5 uses
+SDPB            2 uses
+SDPX9           4 uses
+SDPX9B          12 uses
+rPLL            1 use
+LUT1            10 uses
+LUT2            1118 uses
+LUT3            1306 uses
+LUT4            2100 uses
+
+I/O ports: 97
+I/O primitives: 91
+ELVDS_IOBUF    2 uses
+ELVDS_OBUF     1 use
+IBUF           14 uses
+IOBUF          22 uses
+OBUF           45 uses
+TBUF           4 uses
+TLVDS_IBUF     3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   4099 of 15552 (26%)
+
+RAM/ROM usage summary
+Block Rams : 23 of 46 (50%)
+
+
+@S |Mapping Summary:
+Total  LUTs: 4534 
+

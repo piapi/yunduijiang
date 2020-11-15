@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW2A-18" package="PBGA484" speed="8" partNumber="GW2A-LV18PG484C8/I7"/>
+    <FileList>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\TMDS_PLL\TMDS_PLL.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp_rx.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\arp_tx.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\arp\crc32_d8.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\bayer_rgb.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\ram_line.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\shift_line.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\bayer_to_rgb\video_format_detect.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ddr3_memory_interface\ddr3_memory_interface.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_defines.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\dvi_tx_top.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dvi_tx_top\rgb2dvi.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\eth_ctrl.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_sc_top\sync_fifo_2048x32b.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\async_fifo_512x32b.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\fifo_top\aync_fifo_2048x16b.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_read_128_16.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\fifo\fifo_dma_write_16_128.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_defines.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_top.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\frame_buffer\vfb_wrapper.vp" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\gmii_to_rgmii.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_rx.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gmii_to_rgmii\rgmii_tx.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_pll\pix_pll.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\i2c_master\i2c_master.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\img_data_pkt.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\key_debounceN.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\CSI2RAW8.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\control_capture_lane2.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\fifo_top\fifo16b_8b.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\pll_8bit_2lane.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\mipi_csi\raw8_lane2.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\I2C_Interface.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Controller.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\ov5647_init\OV5647_Registers.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\syn_code\syn_gen.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\testpattern.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_rx.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\udp\udp_tx.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\video_top.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_cache_rx_ctrl.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_cache_tx_ctrl.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_receive.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\audio_send.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\i2c_dri.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\i2c_reg_cfg.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_config.v" type="verilog"/>
+        <File path="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\wm8978\wm8978_ctrl.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="include_path" value="C:/Users/MaiBenBen/Desktop/csi5 mic 8k/dk_video_csi/src/frame_buffer;C:/Users/MaiBenBen/Desktop/csi5 mic 8k/dk_video_csi/src/dvi_tx_top"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gwsynthesis\dk_video.vg"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="video_top"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

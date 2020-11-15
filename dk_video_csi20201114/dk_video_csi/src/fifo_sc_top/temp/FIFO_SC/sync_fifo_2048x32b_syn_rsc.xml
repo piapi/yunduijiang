@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="sync_fifo_2048x32b" Register="38" Alu="36" Lut="19" Bsram="4"/>

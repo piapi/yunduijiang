@@ -1,0 +1,11 @@
+-d C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gwsynthesis\dk_video.vg
+-p GW2A-18-PBGA484-8
+-pn GW2A-LV18PG484C8/I7
+-cst C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dk_video.cst
+-cfg C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\pnr\device.cfg
+-sdc C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\src\dk_video.sdc
+-gao C:\Users\MaiBenBen\Desktop\csi5 mic 8k\dk_video_csi\impl\gao\gao.v
+-bit
+-tr
+-ph
+-timing

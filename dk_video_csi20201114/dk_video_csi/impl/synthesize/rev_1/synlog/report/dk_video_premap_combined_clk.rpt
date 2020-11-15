@@ -1,0 +1,46 @@
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+19 non-gated/non-generated clock tree(s) driving 4526 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 84 clock pin(s) of sequential element(s)
+0 instances converted, 84 sequential instances remain driven by gated/generated clocks
+
+=========================================================== Non-Gated/Non-Generated Clocks ============================================================
+Clock Tree ID     Driving Element                                 Drive Element Type     Fanout     Sample Instance                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       u_clkdiv.CLKOUT                                 CLKDIV                 105        Pout_vs_dn[4:0]                                    
+@KP:ckid0_2       u_tmds_pll.pll_inst.CLKOUT                      PLL                    4          DVI_TX_Top_inst.rgb2dvi_inst.u_OSER10_clk          
+@KP:ckid0_3       ENCRYPTED                                       CLKDIV                 2084       ENCRYPTED                                          
+@KP:ckid0_4       I_clk                                           port                   141        run_cnt[25:0]                                      
+@KP:ckid0_5       ENCRYPTED                                       DHCEN                  60         ENCRYPTED                                          
+@KP:ckid0_6       ENCRYPTED                                       DQS                    8          ENCRYPTED                                          
+@KP:ckid0_7       ENCRYPTED                                       DQS                    9          ENCRYPTED                                          
+@KP:ckid0_8       ENCRYPTED                                       DQS                    1          ENCRYPTED                                          
+@KP:ckid0_9       ENCRYPTED                                       DQS                    8          ENCRYPTED                                          
+@KP:ckid0_10      ENCRYPTED                                       DQS                    9          ENCRYPTED                                          
+@KP:ckid0_11      ENCRYPTED                                       DQS                    1          ENCRYPTED                                          
+@KP:ckid0_12      u_gmii_to_rgmii.u_rgmii_rx.BUFG_inst.O          BUFG                   1027       u_gmii_to_rgmii.u_rgmii_tx.genblk1\[3\]\.ODDR_inst 
+@KP:ckid0_13      CSI2RAW8_inst.pll.pll_inst.CLKOUT               PLL                    320        CSI2RAW8_inst.u_raw8_lane2.lv_pclk                 
+@KP:ckid0_14      CSI2RAW8_inst.DPHY_RX_TOP_inst.clk_byte_out     DPHY_RX_TOP            136        CSI2RAW8_inst.term_en                              
+@KP:ckid0_15      ENCRYPTED                                       CLKDIV                 267        ENCRYPTED                                          
+@KP:ckid0_16      ENCRYPTED                                       DHCEN                  2          ENCRYPTED                                          
+@KP:ckid0_18      I_clk_27m                                       port                   184        OV5647_Controller_inst.cnt[31:0]                   
+@KP:ckid0_21      aud_bclk                                        port                   155        wm8978_ctrl_inst.u_audio_send.tx_cnt[5:0]          
+@KP:ckid0_23      u_gmii_to_rgmii.u_rgmii_rx.BUFIO_inst_1.O       BUFG                   5          u_gmii_to_rgmii.u_rgmii_rx.genblk2\[3\]\.U_IDDR_dq1
+=======================================================================================================================================================
+===================================================================================================== Gated/Generated Clocks =====================================================================================================
+Clock Tree ID     Driving Element                                             Drive Element Type     Unconverted Fanout     Sample Instance                                             Explanation                               
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_17      ENCRYPTED                                                   TLVDS_IBUF             4                      ENCRYPTED                                                   Derived clock on input (not legal for GCC)
+@KP:ckid0_19      wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.dri_clk.Q[0]     dffse                  74                     wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.cur_state[7]     Derived clock on input (not legal for GCC)
+@KP:ckid0_22      u_img_data_pkt.current_state[2:0].Q[2]                      dffr                   6                      u_img_data_pkt.next_state[2]                                Clock source is invalid for GCC           
+==================================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+

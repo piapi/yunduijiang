@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synlog\dk_video_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>TMDS_PLL|clkout_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~DPHY_RX_DPHY_RX_TOP__|HS_CLK_inferred_clock</data>
+<data>611.8 MHz</data>
+<data>520.0 MHz</data>
+<data>-0.288</data>
+</row>
+<row>
+<data>_~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsr90_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw0_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~ddr_phy_data_io_DDR3_Memory_Interface_Top_0_|dqsw270_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsr90_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw0_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~ddr_phy_data_io_DDR3_Memory_Interface_Top_|dqsw270_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_out_inferred_clock</data>
+<data>0.1 MHz</data>
+<data>103.7 MHz</data>
+<data>4248.363</data>
+</row>
+<row>
+<data>_~ddr_phy_top_DDR3_Memory_Interface_Top_|clk_x4i_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>_~idesx4_DPHY_RX_TOP__|clk_byte_out_inferred_clock</data>
+<data>154.0 MHz</data>
+<data>130.9 MHz</data>
+<data>-1.146</data>
+</row>
+<row>
+<data>_~idesx4_DPHY_RX_TOP__|eclko_inferred_clock</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>i2c_dri_Z8|dri_clk_derived_clock</data>
+<data>0.2 MHz</data>
+<data>382.2 MHz</data>
+<data>8474.786</data>
+</row>
+<row>
+<data>pll_8bit_2lane|clkout_inferred_clock</data>
+<data>0.1 MHz</data>
+<data>136.9 MHz</data>
+<data>4249.518</data>
+</row>
+<row>
+<data>video_top|I_clk</data>
+<data>180.3 MHz</data>
+<data>153.2 MHz</data>
+<data>-0.979</data>
+</row>
+<row>
+<data>video_top|I_clk_27m</data>
+<data>233.8 MHz</data>
+<data>198.7 MHz</data>
+<data>-0.755</data>
+</row>
+<row>
+<data>video_top|aud_bclk</data>
+<data>0.1 MHz</data>
+<data>159.5 MHz</data>
+<data>4248.373</data>
+</row>
+<row>
+<data>video_top|eth_rxc</data>
+<data>150.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>video_top|pix_clk</data>
+<data>189.7 MHz</data>
+<data>161.3 MHz</data>
+<data>-0.930</data>
+</row>
+<row>
+<data>System</data>
+<data>116.7 MHz</data>
+<data>99.2 MHz</data>
+<data>-1.513</data>
+</row>
+</report_table>

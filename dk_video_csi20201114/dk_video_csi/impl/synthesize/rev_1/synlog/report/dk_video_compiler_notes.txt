@@ -1,0 +1,184 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG1306 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_rpll\gowin_rpll.v":22:0:22:3|Loading library file D:\Gowin\Gowin_V1.9.7Beta\IDE\data\hardware_core\gw2a\prim_syn.v into library work
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":35:7:35:19|Synthesizing module key_debounceN in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":77:15:77:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":92:22:92:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":104:22:104:31|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":35:7:35:19|Synthesizing module key_debounceN in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":2388:7:2388:10|Synthesizing module BUFG in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":558:7:558:13|Synthesizing module IODELAY in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":386:7:386:10|Synthesizing module IDDR in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\rgmii_rx.v":25:7:25:14|Synthesizing module rgmii_rx in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":415:7:415:10|Synthesizing module ODDR in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\rgmii_tx.v":23:7:23:14|Synthesizing module rgmii_tx in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\gmii_to_rgmii.v":23:7:23:19|Synthesizing module gmii_to_rgmii in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_rx.v":23:7:23:12|Synthesizing module arp_rx in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":23:7:23:12|Synthesizing module arp_tx in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\crc32_d8.v":22:7:22:14|Synthesizing module crc32_d8 in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":23:7:23:9|Synthesizing module arp in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":23:7:23:12|Synthesizing module udp_rx in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":24:7:24:12|Synthesizing module udp_tx in library work.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][16] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][17] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][19] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][20] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][21] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][22] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][23] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][24] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][26] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][30] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][31] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][16] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][17] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][19] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][20] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][21] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][22] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][23] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][24] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][26] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][30] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][31] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][0] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][1] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][2] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][3] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][4] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][5] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][6] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][7] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][8] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][9] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][10] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][11] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][12] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][13] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][14] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][15] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][16] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][17] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][19] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][20] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][21] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][22] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][23] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][24] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][26] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][30] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][31] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][0] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][1] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][2] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][3] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][4] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][5] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][6] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][7] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][8] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][9] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][10] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][11] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][12] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][13] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][14] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][15] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][16] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][17] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][19] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][20] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][21] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][22] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][23] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][24] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][26] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][30] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][31] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][0] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][1] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][2] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][3] is always 0.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":23:7:23:9|Synthesizing module udp in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\eth_ctrl.v":23:7:23:14|Synthesizing module eth_ctrl in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":2406:7:2406:9|Synthesizing module GSR in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_sc_top\sync_fifo_2048x32b.v":995:8:995:25|Synthesizing module sync_fifo_2048x32b in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_top\async_fifo_512x32b.v":1287:8:1287:25|Synthesizing module async_fifo_512x32b in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":2:7:2:18|Synthesizing module img_data_pkt in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\IDE\data\hardware_core\gw2a\prim_syn.v":45:7:45:10|Synthesizing module rPLL in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_rpll\gowin_rpll.v":8:7:8:16|Synthesizing module Gowin_rPLL in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v":22:7:22:17|Synthesizing module i2c_reg_cfg in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_dri.v":22:7:22:13|Synthesizing module i2c_dri in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_config.v":24:7:24:19|Synthesizing module wm8978_config in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_receive.v":22:7:22:19|Synthesizing module audio_receive in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_send.v":22:7:22:16|Synthesizing module audio_send in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_ctrl.v":22:7:22:17|Synthesizing module wm8978_ctrl in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":2339:7:2339:9|Synthesizing module PLL in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_pll\pix_pll.v":8:7:8:13|Synthesizing module pix_pll in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":1:7:1:22|Synthesizing module OV5647_Registers in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":49:20:49:27|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":14:7:14:19|Synthesizing module I2C_Interface in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":183:26:183:32|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":184:17:184:23|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":1:7:1:23|Synthesizing module OV5647_Controller in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":38:13:38:15|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":51:16:51:19|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":62:16:62:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":73:16:73:21|Removing redundant assignment.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":360:7:360:9|Synthesizing module INV in library work.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":380:7:380:11|Synthesizing module IOBUF in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":5095:7:5095:17|Synthesizing module DPHY_RX_TOP in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":1:7:1:27|Synthesizing module control_capture_lane2 in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":62:9:62:11|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":113:14:113:21|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\fifo_top\fifo16b_8b.v":1612:7:1612:16|Synthesizing module fifo16b_8b in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\raw8_lane2.v":2:7:2:16|Synthesizing module raw8_lane2 in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\pll_8bit_2lane.v":9:7:9:20|Synthesizing module pll_8bit_2lane in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v":1:7:1:14|Synthesizing module CSI2RAW8 in library work.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":17:7:17:25|Synthesizing module video_format_detect in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":67:14:67:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":77:17:77:23|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":96:26:96:36|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v":12:7:12:14|Synthesizing module ram_line in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v":40:7:40:7|Removing redundant assignment.
+@N: CL134 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v":29:0:29:5|Found RAM ram, depth=2048, width=8
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":12:7:12:16|Synthesizing module shift_line in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":55:20:55:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":65:21:65:33|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":12:7:12:15|Synthesizing module bayer_rgb in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":103:16:103:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":119:16:119:21|Removing redundant assignment.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\vfb_top.v":26:7:26:13|Synthesizing module vfb_top in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\syn_code\syn_gen.v":66:13:66:17|Removing redundant assignment.
+@N: CL159 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":30311:6:30311:12|Input ref_req is unused.
+@N: CL159 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":20:19:20:36|Input line_length_detect is unused.
+@N: CL159 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":21:19:21:29|Input line_length is unused.
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_dri.v":96:0:96:5|Trying to extract state machine for register cur_state.
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":139:0:139:5|Trying to extract state machine for register cur_state.
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":72:0:72:5|Trying to extract state machine for register cur_state.
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":99:0:99:5|Trying to extract state machine for register cur_state.
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_rx.v":70:0:70:5|Trying to extract state machine for register cur_state.
+@N|Running in 64-bit mode
+

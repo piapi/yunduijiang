@@ -1,0 +1,65 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2A-18" pn="GW2A-LV18PG484C8/I7">gw2a18-004</Device>
+    <FileList>
+        <File path="src/TMDS_PLL/TMDS_PLL.v" type="file.verilog" enable="1"/>
+        <File path="src/arp/arp.v" type="file.verilog" enable="1"/>
+        <File path="src/arp/arp_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/arp/arp_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/arp/crc32_d8.v" type="file.verilog" enable="1"/>
+        <File path="src/bayer_to_rgb/bayer_rgb.v" type="file.verilog" enable="1"/>
+        <File path="src/bayer_to_rgb/ram_line.v" type="file.verilog" enable="1"/>
+        <File path="src/bayer_to_rgb/shift_line.v" type="file.verilog" enable="1"/>
+        <File path="src/bayer_to_rgb/video_format_detect.v" type="file.verilog" enable="1"/>
+        <File path="src/ddr3_memory_interface/ddr3_memory_interface.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx_top/dvi_tx_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx_top/dvi_tx_top.v" type="file.verilog" enable="1"/>
+        <File path="src/dvi_tx_top/rgb2dvi.v" type="file.verilog" enable="1"/>
+        <File path="src/eth_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_sc_top/sync_fifo_2048x32b.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/async_fifo_512x32b.v" type="file.verilog" enable="1"/>
+        <File path="src/fifo_top/aync_fifo_2048x16b.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/fifo/fifo_dma_read_128_16.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/fifo/fifo_dma_write_16_128.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/vfb_defines.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/vfb_top.v" type="file.verilog" enable="1"/>
+        <File path="src/frame_buffer/vfb_wrapper.vp" type="file.verilog" enable="1"/>
+        <File path="src/gmii_to_rgmii/gmii_to_rgmii.v" type="file.verilog" enable="1"/>
+        <File path="src/gmii_to_rgmii/rgmii_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/gmii_to_rgmii/rgmii_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/pix_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/i2c_master/i2c_master.v" type="file.verilog" enable="1"/>
+        <File path="src/img_data_pkt.v" type="file.verilog" enable="1"/>
+        <File path="src/key_debounceN.v" type="file.verilog" enable="1"/>
+        <File path="src/mipi_csi/CSI2RAW8.v" type="file.verilog" enable="1"/>
+        <File path="src/mipi_csi/DPHY_RX_TOP/DPHY_RX_TOP.v" type="file.verilog" enable="1"/>
+        <File path="src/mipi_csi/control_capture_lane2.v" type="file.verilog" enable="1"/>
+        <File path="src/mipi_csi/fifo_top/fifo16b_8b.v" type="file.verilog" enable="1"/>
+        <File path="src/mipi_csi/pll_8bit_2lane.v" type="file.verilog" enable="1"/>
+        <File path="src/mipi_csi/raw8_lane2.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5647_init/I2C_Interface.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5647_init/OV5647_Controller.v" type="file.verilog" enable="1"/>
+        <File path="src/ov5647_init/OV5647_Registers.v" type="file.verilog" enable="1"/>
+        <File path="src/syn_code/syn_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/testpattern.v" type="file.verilog" enable="1"/>
+        <File path="src/udp/udp.v" type="file.verilog" enable="1"/>
+        <File path="src/udp/udp_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/udp/udp_tx.v" type="file.verilog" enable="1"/>
+        <File path="src/video_top.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/audio_cache_rx_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/audio_cache_tx_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/audio_receive.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/audio_send.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/i2c_dri.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/i2c_reg_cfg.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/wm8978_config.v" type="file.verilog" enable="1"/>
+        <File path="src/wm8978/wm8978_ctrl.v" type="file.verilog" enable="1"/>
+        <File path="src/dk_video.cst" type="file.cst" enable="1"/>
+        <File path="src/dk_video.sdc" type="file.sdc" enable="1"/>
+        <File path="src/dk_video.gao" type="file.gao" enable="1"/>
+    </FileList>
+</Project>

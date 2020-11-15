@@ -1,0 +1,197 @@
+i un1_u_clkdiv
+m 0 0
+u 30 105
+p {t:u_clkdiv.CLKOUT}{t:pix_clk.I[0]}{t:pix_clk.OUT[0]}{t:Pout_vs_dn[4:0].C}
+e ckid0_0 {t:Pout_vs_dn[4:0].C} dffs
+c ckid0_1 {t:u_clkdiv.CLKOUT} CLKDIV Unsupported/too complex instance on clock path
+i u_tmds_pll.clkout_i
+m 0 0
+u 4 4
+p {t:u_tmds_pll.pll_inst.CLKOUT}{t:u_tmds_pll.clkout_inferred_clock.I[0]}{t:u_tmds_pll.clkout_inferred_clock.OUT[0]}{p:u_tmds_pll.clkout}{t:u_tmds_pll.clkout}{t:DVI_TX_Top_inst.I_serial_clk}{p:DVI_TX_Top_inst.I_serial_clk}{t:DVI_TX_Top_inst.rgb2dvi_inst.I_serial_clk}{p:DVI_TX_Top_inst.rgb2dvi_inst.I_serial_clk}{t:DVI_TX_Top_inst.rgb2dvi_inst.u_OSER10_clk.FCLK}
+e ckid0_2 {t:DVI_TX_Top_inst.rgb2dvi_inst.u_OSER10_clk.FCLK} OSER10
+c ckid0_2 {t:u_tmds_pll.pll_inst.CLKOUT} PLL Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET0
+m 0 0
+u 1970 2084
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_3 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_3 {t:ENCRYPTED} CLKDIV Unsupported/too complex instance on clock path
+i I_clk
+m 0 0
+u 45 141
+p {p:I_clk}{t:run_cnt[25:0].C}
+e ckid0_4 {t:run_cnt[25:0].C} dffr
+c ckid0_4 {p:I_clk} port Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET1
+m 0 0
+u 60 60
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_5 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_5 {t:ENCRYPTED} DHCEN Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET2
+m 0 0
+u 8 8
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_6 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_6 {t:ENCRYPTED} DQS Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET3
+m 0 0
+u 9 9
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_7 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_7 {t:ENCRYPTED} DQS Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET4
+m 0 0
+u 1 1
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_8 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_8 {t:ENCRYPTED} DQS Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET5
+m 0 0
+u 8 8
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_9 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_9 {t:ENCRYPTED} DQS Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET6
+m 0 0
+u 9 9
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_10 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_10 {t:ENCRYPTED} DQS Unsupported/too complex instance on clock path
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET7
+m 0 0
+u 1 1
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_11 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_11 {t:ENCRYPTED} DQS Unsupported/too complex instance on clock path
+i u_gmii_to_rgmii.u_rgmii_rx.gmii_rx_clk
+m 0 0
+u 274 1027
+p {t:u_gmii_to_rgmii.u_rgmii_rx.BUFG_inst.O}{p:u_gmii_to_rgmii.u_rgmii_rx.gmii_rx_clk}{t:u_gmii_to_rgmii.u_rgmii_rx.gmii_rx_clk}{t:u_gmii_to_rgmii.u_rgmii_tx.gmii_tx_clk}{p:u_gmii_to_rgmii.u_rgmii_tx.gmii_tx_clk}{t:u_gmii_to_rgmii.u_rgmii_tx.genblk1\[3\]\.ODDR_inst.CLK}
+e ckid0_12 {t:u_gmii_to_rgmii.u_rgmii_tx.genblk1\[3\]\.ODDR_inst.CLK} ODDR
+c ckid0_12 {t:u_gmii_to_rgmii.u_rgmii_rx.BUFG_inst.O} BUFG Unsupported/too complex instance on clock path
+i CSI2RAW8_inst.pll.clkout_i
+m 0 0
+u 182 320
+p {t:CSI2RAW8_inst.pll.pll_inst.CLKOUT}{t:CSI2RAW8_inst.pll.clkout_inferred_clock.I[0]}{t:CSI2RAW8_inst.pll.clkout_inferred_clock.OUT[0]}{p:CSI2RAW8_inst.pll.clkout}{t:CSI2RAW8_inst.pll.clkout}{t:CSI2RAW8_inst.u_raw8_lane2.pixclk}{p:CSI2RAW8_inst.u_raw8_lane2.pixclk}{t:CSI2RAW8_inst.u_raw8_lane2.lv_pclk.C}
+e ckid0_13 {t:CSI2RAW8_inst.u_raw8_lane2.lv_pclk.C} dffr
+c ckid0_13 {t:CSI2RAW8_inst.pll.pll_inst.CLKOUT} PLL Unsupported/too complex instance on clock path
+i CSI2RAW8_inst.sclk_l
+m 0 0
+u 54 136
+p {t:CSI2RAW8_inst.sclk_l.OUT[0]}{t:CSI2RAW8_inst.term_en.C}
+e ckid0_14 {t:CSI2RAW8_inst.term_en.C} dffre
+c ckid0_14 {t:CSI2RAW8_inst.DPHY_RX_TOP_inst.clk_byte_out} DPHY_RX_TOP Unsupported/too complex instance on clock path
+i CSI2RAW8_inst.DPHY_RX_TOP_inst.DPHY_RX_INST.ENCNET8
+m 0 0
+u 267 267
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_15 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_15 {t:ENCRYPTED} CLKDIV Unsupported/too complex instance on clock path
+i CSI2RAW8_inst.DPHY_RX_TOP_inst.DPHY_RX_INST.ENCNET9
+m 0 0
+u 2 2
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_16 {t:ENCRYPTED} <ENCRYPTED>
+c ckid0_16 {t:ENCRYPTED} DHCEN Unsupported/too complex instance on clock path
+i CSI2RAW8_inst.DPHY_RX_TOP_inst.DPHY_RX_INST.ENCNET10
+m 0 0
+u 4 4
+n ckid0_17 {t:ENCRYPTED} Derived clock on input (not legal for GCC)
+p {t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{t:ENCRYPTED}{p:ENCRYPTED}{t:ENCRYPTED}
+e ckid0_17 {t:ENCRYPTED} <ENCRYPTED>
+d ckid0_17 {t:ENCRYPTED} TLVDS_IBUF Derived clock on input (not legal for GCC)
+i I_clk_27m
+m 0 0
+u 18 184
+p {p:I_clk_27m}{t:OV5647_Controller_inst.clk}{p:OV5647_Controller_inst.clk}{t:OV5647_Controller_inst.cnt[31:0].C}
+e ckid0_18 {t:OV5647_Controller_inst.cnt[31:0].C} dffr
+c ckid0_18 {p:I_clk_27m} port Unsupported/too complex instance on clock path
+i wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.dri_clk_i
+m 0 0
+u 21 74
+n ckid0_19 {t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.cur_state[7].C} Derived clock on input (not legal for GCC)
+p {t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.dri_clk.Q[0]}{t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.dri_clk_derived_clock.I[0]}{t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.dri_clk_derived_clock.OUT[0]}{t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.cur_state[7].C}
+e ckid0_19 {t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.cur_state[7].C} dffr
+d ckid0_20 {t:wm8978_ctrl_inst.u_wm8978_config.u_i2c_dri.dri_clk.Q[0]} dffse Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i aud_bclk
+m 0 0
+u 52 155
+p {p:aud_bclk}{t:wm8978_ctrl_inst.aud_bclk}{p:wm8978_ctrl_inst.aud_bclk}{t:wm8978_ctrl_inst.u_audio_send.aud_bclk}{p:wm8978_ctrl_inst.u_audio_send.aud_bclk}{t:wm8978_ctrl_inst.u_audio_send.tx_cnt[5:0].C}
+e ckid0_21 {t:wm8978_ctrl_inst.u_audio_send.tx_cnt[5:0].C} dffr
+c ckid0_21 {p:aud_bclk} port Unsupported/too complex instance on clock path
+i u_img_data_pkt.current_state[2]
+m 0 0
+u 6 6
+n ckid0_22 {t:u_img_data_pkt.next_state[2].C} Clock source is invalid for GCC
+p {t:u_img_data_pkt.current_state[2:0].Q[2]}{t:u_img_data_pkt.un1_current_state_2.I[0]}{t:u_img_data_pkt.un1_current_state_2.OUT[0]}{t:u_img_data_pkt.next_state[2].C}
+e ckid0_22 {t:u_img_data_pkt.next_state[2].C} latr
+d ckid0_22 {t:u_img_data_pkt.current_state[2:0].Q[2]} dffr Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i u_gmii_to_rgmii.u_rgmii_rx.rgmii_rxc_bufio
+m 0 0
+u 5 5
+p {t:u_gmii_to_rgmii.u_rgmii_rx.BUFIO_inst_1.O}{t:u_gmii_to_rgmii.u_rgmii_rx.genblk2\[3\]\.U_IDDR_dq1.CLK}
+e ckid0_23 {t:u_gmii_to_rgmii.u_rgmii_rx.genblk2\[3\]\.U_IDDR_dq1.CLK} IDDR
+c ckid0_23 {t:u_gmii_to_rgmii.u_rgmii_rx.BUFIO_inst_1.O} BUFG Unsupported/too complex instance on clock path
+i eth_rxc
+m 0 0
+u 0 0
+i u_tmds_pll.lock
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET157
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET158
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET174
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET175
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET176
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET177
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET178
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET179
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET180
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET181
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET189
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET190
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET191
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET192
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET193
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET194
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET195
+m 0 0
+u 0 0
+i DDR3_Memory_Interface_Top_inst.gw3mc_top.ENCNET196
+m 0 0
+u 0 0
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

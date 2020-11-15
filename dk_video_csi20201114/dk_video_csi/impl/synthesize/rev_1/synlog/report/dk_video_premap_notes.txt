@@ -1,0 +1,41 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: FX493 |Applying initial value "0" on instance vs_tmp1.
+@N: FX493 |Applying initial value "0" on instance de_tmp1.
+@N: FX493 |Applying initial value "0" on instance vs_tmp2.
+@N: FX493 |Applying initial value "0" on instance de_tmp2.
+@N: FX493 |Applying initial value "0" on instance vs_tmp1.
+@N: FX493 |Applying initial value "0" on instance de_tmp1.
+@N: FX493 |Applying initial value "00000000" on instance data_tmp1[7:0].
+@N: FX493 |Applying initial value "00000000" on instance shift_data1_d1[7:0].
+@N: FX493 |Applying initial value "0" on instance vs_tmp2.
+@N: FX493 |Applying initial value "0" on instance de_tmp2.
+@N: FX493 |Applying initial value "00000000" on instance data_tmp2[7:0].
+@N: FX493 |Applying initial value "00000000" on instance shift_data1_d2[7:0].
+@N: FX493 |Applying initial value "0" on instance vs_tmp3.
+@N: FX493 |Applying initial value "0" on instance de_tmp3.
+@N: FX493 |Applying initial value "00000000" on instance data_tmp3[7:0].
+@N: FX493 |Applying initial value "00000000" on instance data_tmp4[7:0].
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d3.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d0.
+@N: FX493 |Applying initial value "1" on instance video_vs_n_d1.
+@N: FX493 |Applying initial value "1" on instance dma_vs_n_d3.
+@N: FX493 |Applying initial value "0" on instance vin_vs_n_falling_r.
+@N: FX493 |Applying initial value "0" on instance vout_vs_n_falling_r.
+@N: FX493 |Applying initial value "1" on instance vin_vs_n_sync3.
+@N: FX493 |Applying initial value "1" on instance vout_vs_n_sync3.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\wm8978\i2c_dri.v":173:0:173:5|Removing sequential instance i2c_data_r[7:0] (in view: work.i2c_dri_Z8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":68:0:68:5|Removing sequential instance vc[1:0] (in view: work.control_capture_lane2_8s_2s_RAW8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":68:0:68:5|Removing sequential instance ecc[7:0] (in view: work.control_capture_lane2_8s_2s_RAW8(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\key_debouncen.v":83:4:83:9|Removing sequential instance key_n_out1 (in view: work.key_debounceN_50000000_100000000(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\udp\udp.v":76:3:76:10|Removing instance u_udp_rx (in view: work.udp_3232235786_3232235878_Z6(verilog)) of type view:work.udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4(verilog) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\syn_code\syn_gen.v":110:0:110:5|Removing sequential instance O_rden (in view: work.syn_gen(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Removing sequential instance rec_pkt_done (in view: work.udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Removing sequential instance rec_en (in view: work.udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Removing sequential instance rec_byte_num[15:0] (in view: work.udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\wm8978\audio_send.v":72:0:72:5|Removing sequential instance tx_done (in view: work.audio_send_32(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\maibenben\desktop\dk_video_csi_720_lvcmos12 udp send img8 state aud\src\syn_code\syn_gen.v":92:0:92:5|Removing sequential instance Rden_dn (in view: work.syn_gen(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF578 |Incompatible asynchronous control logic preventing generated clock conversion.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\dk_video.sap.

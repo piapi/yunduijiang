@@ -1,0 +1,1306 @@
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MBENBEN-PC
+
+Implementation : rev_1
+Synopsys HDL Compiler, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MBENBEN-PC
+
+Implementation : rev_1
+Synopsys Verilog Compiler, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+
+@I::"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v" (library work)
+@I::"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\TMDS_PLL\TMDS_PLL.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_rx.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\crc32_d8.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v" (library work)
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":185:9:185:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":206:9:206:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":207:9:207:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":185:9:185:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":208:9:208:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":206:9:206:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":229:9:229:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":207:9:207:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":230:9:230:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":185:9:185:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":208:9:208:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":231:9:231:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":206:9:206:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":229:9:229:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":252:9:252:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":207:9:207:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":230:9:230:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":253:9:253:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":185:9:185:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":208:9:208:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":231:9:231:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":254:9:254:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":206:9:206:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":229:9:229:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":252:9:252:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":275:9:275:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":207:9:207:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":230:9:230:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":253:9:253:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":276:9:276:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":185:9:185:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":208:9:208:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":231:9:231:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":254:9:254:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":277:9:277:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":206:9:206:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":229:9:229:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":252:9:252:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":275:9:275:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":298:9:298:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":207:9:207:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":230:9:230:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":253:9:253:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":276:9:276:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":299:9:299:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":162:9:162:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":185:9:185:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":208:9:208:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":231:9:231:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":254:9:254:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":277:9:277:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":300:9:300:46|Duplicate defparam TXCLK_POL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":160:9:160:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":183:9:183:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":206:9:206:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":229:9:229:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":252:9:252:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":275:9:275:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":298:9:298:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":321:9:321:40|Duplicate defparam HWL found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":161:9:161:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":184:9:184:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":207:9:207:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":230:9:230:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":253:9:253:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":276:9:276:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":299:9:299:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+@W: CG1347 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":322:9:322:48|Duplicate defparam TCLK_SOURCE found ! Previously declared here.
+
+Only the first 100 messages of id 'CG1347' are reported. To see all messages use 'report_messages -log C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synlog\dk_video_compiler.srr -id CG1347' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG1347} -count unlimited' in the Tcl shell.
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\dvi_tx_top\dvi_tx_defines.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\dvi_tx_top\dvi_tx_top.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\dvi_tx_top\rgb2dvi.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\eth_ctrl.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_sc_top\sync_fifo_2048x32b.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_top\async_fifo_512x32b.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_top\aync_fifo_2048x16b.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\fifo\fifo_dma_read_128_16.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\fifo\fifo_dma_write_16_128.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\vfb_defines.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\vfb_top.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\vfb_wrapper.vp" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\gmii_to_rgmii.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\rgmii_rx.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\rgmii_tx.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_pll\pix_pll.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_rpll\gowin_rpll.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\i2c_master\i2c_master.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\fifo_top\fifo16b_8b.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\pll_8bit_2lane.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\raw8_lane2.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\syn_code\syn_gen.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\testpattern.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v" (library work)
+@W: CG1337 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":263:8:263:12|Net rst_n is not declared.
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_receive.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_send.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_dri.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_config.v" (library work)
+@I::"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_ctrl.v" (library work)
+@N: CG1306 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_rpll\gowin_rpll.v":22:0:22:3|Loading library file D:\Gowin\Gowin_V1.9.7Beta\IDE\data\hardware_core\gw2a\prim_syn.v into library work
+@I::"D:\Gowin\Gowin_V1.9.7Beta\IDE\data\hardware_core\gw2a\prim_syn.v" (library work)
+Verilog syntax check successful!
+Options changed - recompiling
+Selecting top level module video_top
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":345:3:345:7|Type of parameter BOARD_IP on the instance u_arp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":345:3:345:7|Type of parameter DES_IP on the instance u_arp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":74:3:74:10|Type of parameter BOARD_IP on the instance u_arp_rx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":94:3:94:10|Type of parameter BOARD_IP on the instance u_arp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":94:3:94:10|Type of parameter DES_IP on the instance u_arp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":403:3:403:7|Type of parameter BOARD_IP on the instance u_udp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":403:3:403:7|Type of parameter DES_IP on the instance u_udp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":76:3:76:10|Type of parameter BOARD_IP on the instance u_udp_rx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":95:3:95:10|Type of parameter BOARD_IP on the instance u_udp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":95:3:95:10|Type of parameter DES_IP on the instance u_udp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":35:7:35:19|Synthesizing module key_debounceN in library work.
+
+	DEBCNT1=32'b00000010111110101111000010000000
+	DEBCNT2=32'b00001011111010111100001000000000
+   Generated name = key_debounceN_50000000_200000000
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":77:15:77:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":92:22:92:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":104:22:104:31|Removing redundant assignment.
+Running optimization stage 1 on key_debounceN_50000000_200000000 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\key_debounceN.v":35:7:35:19|Synthesizing module key_debounceN in library work.
+
+	DEBCNT1=32'b00000010111110101111000010000000
+	DEBCNT2=32'b00000101111101011110000100000000
+   Generated name = key_debounceN_50000000_100000000
+Running optimization stage 1 on key_debounceN_50000000_100000000 .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":2388:7:2388:10|Synthesizing module BUFG in library work.
+Running optimization stage 1 on BUFG .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":558:7:558:13|Synthesizing module IODELAY in library work.
+Running optimization stage 1 on IODELAY .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":386:7:386:10|Synthesizing module IDDR in library work.
+Running optimization stage 1 on IDDR .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\rgmii_rx.v":25:7:25:14|Synthesizing module rgmii_rx in library work.
+
+	DELAY_VALUE=32'b00000000000000000000000000110010
+   Generated name = rgmii_rx_50s
+Running optimization stage 1 on rgmii_rx_50s .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":415:7:415:10|Synthesizing module ODDR in library work.
+Running optimization stage 1 on ODDR .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\rgmii_tx.v":23:7:23:14|Synthesizing module rgmii_tx in library work.
+Running optimization stage 1 on rgmii_tx .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gmii_to_rgmii\gmii_to_rgmii.v":23:7:23:19|Synthesizing module gmii_to_rgmii in library work.
+
+	DELAY_VALUE=32'b00000000000000000000000000110010
+   Generated name = gmii_to_rgmii_50s
+Running optimization stage 1 on gmii_to_rgmii_50s .......
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":345:3:345:7|Type of parameter BOARD_IP on the instance u_arp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":345:3:345:7|Type of parameter DES_IP on the instance u_arp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":74:3:74:10|Type of parameter BOARD_IP on the instance u_arp_rx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_rx.v":23:7:23:12|Synthesizing module arp_rx in library work.
+
+	BOARD_MAC=48'b000000000001000100100010001100110100010001010101
+	BOARD_IP=32'b11000000101010000000000100001010
+	st_idle=5'b00001
+	st_preamble=5'b00010
+	st_eth_head=5'b00100
+	st_arp_data=5'b01000
+	st_rx_end=5'b10000
+	ETH_TPYE=16'b0000100000000110
+   Generated name = arp_rx_3232235786_1_2_4_8_16_2054_Z1
+Running optimization stage 1 on arp_rx_3232235786_1_2_4_8_16_2054_Z1 .......
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_rx.v":122:0:122:5|Pruning unused bits 7 to 0 of eth_type[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":94:3:94:10|Type of parameter BOARD_IP on the instance u_arp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":94:3:94:10|Type of parameter DES_IP on the instance u_arp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":23:7:23:12|Synthesizing module arp_tx in library work.
+
+	BOARD_MAC=48'b000000000001000100100010001100110100010001010101
+	BOARD_IP=32'b11000000101010000000000100001010
+	DES_MAC=48'b111111111111111111111111111111111111111111111111
+	DES_IP=32'b11000000101010000000000101100110
+	st_idle=5'b00001
+	st_preamble=5'b00010
+	st_eth_head=5'b00100
+	st_arp_data=5'b01000
+	st_crc=5'b10000
+	ETH_TYPE=16'b0000100000000110
+	HD_TYPE=16'b0000000000000001
+	PROTOCOL_TYPE=16'b0000100000000000
+	MIN_DATA_NUM=16'b0000000000101110
+   Generated name = arp_tx_Z2
+Running optimization stage 1 on arp_tx_Z2 .......
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":312:0:312:5|Sharing sequential element crc_clr. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[7][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[6][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[6]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[5][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[5]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[4][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[4]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[3][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[3]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[2][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[2]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[1][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[1]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal preamble[0][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element preamble[0]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[13][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[12][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[11][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[10][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[9][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[8][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[8]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[8]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[7][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[7]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element eth_head[7]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal eth_head[6][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[17][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[17]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[17]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[17]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[17]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[16][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[16]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[15][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[15]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[15]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[15]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[14][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[13][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[13]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[12][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[12]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[12]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[12]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[12]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[12]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[11][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[11]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[10][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[10]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[9][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[9]. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Sharing sequential element arp_data[9]. Add a syn_preserve attribute to the element to prevent sharing.
+
+Only the first 100 messages of id 'CL177' are reported. To see all messages use 'report_messages -log C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synlog\dk_video_compiler.srr -id CL177' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL177} -count unlimited' in the Tcl shell.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[8][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[6][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[5][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[4][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[3][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[2][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[1][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|Feedback mux created for signal arp_data[0][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[4][2:1] assign 1, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[11][5:4] assign 1, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[11][1:0] assign 1, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[14][7:6] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[14][5:0] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[15][7] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[15][6] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[15][4] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[16][7:1] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to arp_data[17][2] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[6][7:0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[7][7:5] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[7][3:1] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[8][5] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[8][4:2] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[8][1] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[9][7:6] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[9][5:4] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[9][3:2] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[9][1:0] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[10][5:3] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[10][1:0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[12][7:4] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[12][3] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[12][2:0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[13][7:3] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[13][2:1] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to eth_head[13][0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[6][7] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[6][6] assign 1, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][7:6] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][5] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][4] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][3] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][2] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][1] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":145:0:145:5|All reachable assignments to preamble[7][0] assign 1, register removed by optimization
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\crc32_d8.v":22:7:22:14|Synthesizing module crc32_d8 in library work.
+Running optimization stage 1 on crc32_d8 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp.v":23:7:23:9|Synthesizing module arp in library work.
+
+	BOARD_MAC=48'b000000000001000100100010001100110100010001010101
+	BOARD_IP=32'b11000000101010000000000100001010
+	DES_MAC=48'b111111111111111111111111111111111111111111111111
+	DES_IP=32'b11000000101010000000000101100110
+   Generated name = arp_3232235786_3232235878_Z3
+Running optimization stage 1 on arp_3232235786_3232235878_Z3 .......
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":403:3:403:7|Type of parameter BOARD_IP on the instance u_udp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":403:3:403:7|Type of parameter DES_IP on the instance u_udp is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":76:3:76:10|Type of parameter BOARD_IP on the instance u_udp_rx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":23:7:23:12|Synthesizing module udp_rx in library work.
+
+	BOARD_MAC=48'b000000000001000100100010001100110100010001010101
+	BOARD_IP=32'b11000000101010000000000100001010
+	st_idle=7'b0000001
+	st_preamble=7'b0000010
+	st_eth_head=7'b0000100
+	st_ip_head=7'b0001000
+	st_udp_head=7'b0010000
+	st_rx_data=7'b0100000
+	st_rx_end=7'b1000000
+	ETH_TYPE=16'b0000100000000000
+   Generated name = udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4
+Running optimization stage 1 on udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4 .......
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Pruning unused bits 7 to 0 of eth_type[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Pruning unused bits 31 to 24 of des_ip[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Optimizing register bit ip_head_byte_num[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Optimizing register bit ip_head_byte_num[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":136:0:136:5|Pruning register bits 1 to 0 of ip_head_byte_num[5:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":95:3:95:10|Type of parameter BOARD_IP on the instance u_udp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@W: CG1283 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":95:3:95:10|Type of parameter DES_IP on the instance u_udp_tx is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":24:7:24:12|Synthesizing module udp_tx in library work.
+
+	BOARD_MAC=48'b000000000001000100100010001100110100010001010101
+	BOARD_IP=32'b11000000101010000000000100001010
+	DES_MAC=48'b111111111111111111111111111111111111111111111111
+	DES_IP=32'b11000000101010000000000101100110
+	st_idle=7'b0000001
+	st_check_sum=7'b0000010
+	st_preamble=7'b0000100
+	st_eth_head=7'b0001000
+	st_ip_head=7'b0010000
+	st_tx_data=7'b0100000
+	st_crc=7'b1000000
+	ETH_TYPE=16'b0000100000000000
+	MIN_DATA_NUM=16'b0000000000010010
+   Generated name = udp_tx_Z5
+Running optimization stage 1 on udp_tx_Z5 .......
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[1][15:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[7][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[6][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[5][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[4][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[3][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[2][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[1][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal preamble[0][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[6][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[5][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[4][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[3][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[2][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal ip_head[0][31:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[13][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[12][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[11][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[10][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[9][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[8][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[7][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL113 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Feedback mux created for signal eth_head[6][7:0]. To avoid the feedback mux, assign values explicitly under all conditions of conditional assignment statements.
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[7][7:5] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[7][3:1] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[8][5] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[8][4:2] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[8][1] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[8][0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[9][7:6] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[9][5:4] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[9][3:2] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[9][1:0] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[10][5:3] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[10][1:0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[12][7:4] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[12][3] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[12][2:0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to eth_head[13][7:0] assign 0, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[6][7] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[6][6] assign 1, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][7:6] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][5] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][4] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][3] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][2] assign 1, register removed by optimization
+@W: CL250 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][1] assign 0, register removed by optimization
+@W: CL251 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|All reachable assignments to preamble[7][0] assign 1, register removed by optimization
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][16] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][17] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][19] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][20] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][21] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][22] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][23] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][24] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][26] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][30] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[0][31] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][16] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][17] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][19] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][20] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][21] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][22] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][23] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][24] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][26] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][30] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[2][31] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][0] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][1] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][2] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][3] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][4] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][5] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][6] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][7] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][8] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][9] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][10] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][11] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][12] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][13] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][14] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][15] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][16] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][17] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][19] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][20] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][21] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][22] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][23] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][24] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][26] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][30] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[3][31] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][0] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][1] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][2] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][3] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][4] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][5] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][6] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][7] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][8] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][9] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][10] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][11] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][12] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][13] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][14] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][15] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][16] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][17] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][18] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][19] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][20] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][21] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][22] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][23] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][24] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][25] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][26] is always 1.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][27] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][28] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][29] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][30] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[5][31] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][0] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][1] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][2] is always 0.
+@N: CL189 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Register bit ip_head[6][3] is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synlog\dk_video_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Pruning register bits 31 to 16 of ip_head[2][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Pruning register bits 31 to 16 of ip_head[0][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":196:0:196:5|Pruning register bits 15 to 0 of ip_head[6][31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp.v":23:7:23:9|Synthesizing module udp in library work.
+
+	BOARD_MAC=48'b000000000001000100100010001100110100010001010101
+	BOARD_IP=32'b11000000101010000000000100001010
+	DES_MAC=48'b111111111111111111111111111111111111111111111111
+	DES_IP=32'b11000000101010000000000101100110
+   Generated name = udp_3232235786_3232235878_Z6
+Running optimization stage 1 on udp_3232235786_3232235878_Z6 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\eth_ctrl.v":23:7:23:14|Synthesizing module eth_ctrl in library work.
+Running optimization stage 1 on eth_ctrl .......
+Running optimization stage 1 on DFFC .......
+Running optimization stage 1 on DFFP .......
+Running optimization stage 1 on SDPX9B .......
+Running optimization stage 1 on ALU .......
+Running optimization stage 1 on LUT2 .......
+Running optimization stage 1 on LUT3 .......
+Running optimization stage 1 on LUT4 .......
+Running optimization stage 1 on VCC .......
+Running optimization stage 1 on GND .......
+Running optimization stage 1 on \~fifo_sc.sync_fifo_2048x32b  .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":2406:7:2406:9|Synthesizing module GSR in library work.
+Running optimization stage 1 on GSR .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_sc_top\sync_fifo_2048x32b.v":995:8:995:25|Synthesizing module sync_fifo_2048x32b in library work.
+Running optimization stage 1 on sync_fifo_2048x32b .......
+@W: CL168 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_sc_top\sync_fifo_2048x32b.v":1032:6:1032:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+Running optimization stage 1 on SDPB .......
+Running optimization stage 1 on DFFNP .......
+Running optimization stage 1 on \~fifo.async_fifo_512x32b  .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_top\async_fifo_512x32b.v":1287:8:1287:25|Synthesizing module async_fifo_512x32b in library work.
+Running optimization stage 1 on async_fifo_512x32b .......
+@W: CL168 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\fifo_top\async_fifo_512x32b.v":1327:6:1327:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":2:7:2:18|Synthesizing module img_data_pkt in library work.
+
+	CMOS_H_PIXEL=11'b01010000000
+	CMOS_V_PIXEL=11'b10110100000
+	IMG_FRAME_HEAD=32'b11110000010110101010010100001111
+	ETH_IFG=8'b00011001
+	IMG_IFG=22'b0011111111111111111111
+	IMG_AUDIO_HEAD=32'b00001111101001010101111111110000
+	AUDIO_TX_NUM=9'b100000000
+	IDLE=3'b100
+	AUD=3'b010
+	IMG=3'b001
+   Generated name = img_data_pkt_640_1440_4032472335_25_1048575_262496240_256_4_2_1_Z7
+@W: CS263 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":418:10:418:17|Port-width mismatch for port Rnum. The port definition is 10 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":48:16:48:30|Object udp_tx_aud_flag is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":49:16:49:34|Object udp_tx_aud_start_en is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":50:16:50:30|Object udp_tx_aud_done is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":69:16:69:31|Object wr_fifo_aud_data is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":70:16:70:29|Object wr_fifo_aud_en is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":88:20:88:38|Object udp_tx_byte_num_aud is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":89:20:89:38|Object udp_tx_start_en_img is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":90:20:90:38|Object udp_tx_start_en_aud is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on img_data_pkt_640_1440_4032472335_25_1048575_262496240_256_4_2_1_Z7 .......
+@W: CL118 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":175:4:175:7|Latch generated from always block for signal next_state[2:0]; possible missing assignment in an if or case statement.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[3] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[4] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Optimizing register bit udp_tx_byte_num[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Pruning register bits 15 to 11 of udp_tx_byte_num[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Pruning register bit 9 of udp_tx_byte_num[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Pruning register bits 7 to 3 of udp_tx_byte_num[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":198:0:198:5|Pruning register bits 1 to 0 of udp_tx_byte_num[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\IDE\data\hardware_core\gw2a\prim_syn.v":45:7:45:10|Synthesizing module rPLL in library work.
+Running optimization stage 1 on rPLL .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_rpll\gowin_rpll.v":8:7:8:16|Synthesizing module Gowin_rPLL in library work.
+Running optimization stage 1 on Gowin_rPLL .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v":22:7:22:17|Synthesizing module i2c_reg_cfg in library work.
+
+	WL=6'b100000
+	REG_NUM=5'b10011
+	PHONE_VOLUME=6'b011110
+	SPEAK_VOLUME=6'b101101
+   Generated name = i2c_reg_cfg_32_19_30_45
+Running optimization stage 1 on i2c_reg_cfg_32_19_30_45 .......
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v":101:0:101:5|Optimizing register bit i2c_data[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v":101:0:101:5|Pruning register bit 15 of i2c_data[15:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_dri.v":22:7:22:13|Synthesizing module i2c_dri in library work.
+
+	SLAVE_ADDR=7'b0011010
+	CLK_FREQ=26'b10111110101111000010000000
+	I2C_FREQ=18'b111101000010010000
+	st_idle=8'b00000001
+	st_sladdr=8'b00000010
+	st_addr16=8'b00000100
+	st_addr8=8'b00001000
+	st_data_wr=8'b00010000
+	st_addr_rd=8'b00100000
+	st_data_rd=8'b01000000
+	st_stop=8'b10000000
+   Generated name = i2c_dri_Z8
+Running optimization stage 1 on i2c_dri_Z8 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_config.v":24:7:24:19|Synthesizing module wm8978_config in library work.
+
+	SLAVE_ADDR=7'b0011010
+	WL=6'b100000
+	BIT_CTRL=1'b0
+	CLK_FREQ=26'b10111110101111000010000000
+	I2C_FREQ=18'b111101000010010000
+   Generated name = wm8978_config_26_32_0_50000000_250000
+@W: CS263 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_config.v":76:21:76:35|Port-width mismatch for port i2c_addr. The port definition is 16 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on wm8978_config_26_32_0_50000000_250000 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_receive.v":22:7:22:19|Synthesizing module audio_receive in library work.
+
+	WL=6'b100000
+   Generated name = audio_receive_32
+Running optimization stage 1 on audio_receive_32 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_send.v":22:7:22:16|Synthesizing module audio_send in library work.
+
+	WL=6'b100000
+   Generated name = audio_send_32
+@W: CG1340 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\audio_send.v":88:33:88:51|Index into variable dac_data_t could be out of range ; a simulation mismatch is possible.
+Running optimization stage 1 on audio_send_32 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\wm8978_ctrl.v":22:7:22:17|Synthesizing module wm8978_ctrl in library work.
+Running optimization stage 1 on wm8978_ctrl .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":2339:7:2339:9|Synthesizing module PLL in library work.
+Running optimization stage 1 on PLL .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\gowin_pll\pix_pll.v":8:7:8:13|Synthesizing module pix_pll in library work.
+Running optimization stage 1 on pix_pll .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":1:7:1:22|Synthesizing module OV5647_Registers in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":49:20:49:27|Removing redundant assignment.
+Running optimization stage 1 on OV5647_Registers .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":14:7:14:19|Synthesizing module I2C_Interface in library work.
+
+	SID=8'b01101100
+	id=8'b01101100
+   Generated name = I2C_Interface_108_108
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":183:26:183:32|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":184:17:184:23|Removing redundant assignment.
+Running optimization stage 1 on I2C_Interface_108_108 .......
+@A: CL291 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":56:4:56:9|Register sioc_temp with asynchronous load is being synthesized in compatability mode. A synthesis/simulation mismatch is possible.
+@W: CL254 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":56:4:56:9|A possible syn_keep on a reg that results in sequential logic - assuming that a tristate can be transmitted through : signal name could change
+@W: CL254 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":44:4:44:9|A possible syn_keep on a reg that results in sequential logic - assuming that a tristate can be transmitted through : signal name could change
+@W: CL254 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":56:4:56:9|A possible syn_keep on a reg that results in sequential logic - assuming that a tristate can be transmitted through : signal name could change
+@W: CL169 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":44:4:44:9|Pruning unused register siod_temp_cl. Make sure that there are no unused intermediate registers.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":1:7:1:23|Synthesizing module OV5647_Controller in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":38:13:38:15|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":51:16:51:19|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":62:16:62:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Controller.v":73:16:73:21|Removing redundant assignment.
+Running optimization stage 1 on OV5647_Controller .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":360:7:360:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+@N: CG364 :"D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro\lib\generic\gw2a.v":380:7:380:11|Synthesizing module IOBUF in library work.
+Running optimization stage 1 on IOBUF .......
+Running optimization stage 1 on TLVDS_IBUF .......
+Running optimization stage 1 on LUT1 .......
+Running optimization stage 1 on DFFCE .......
+Running optimization stage 1 on DFFPE .......
+Running optimization stage 1 on CLKDIV .......
+Running optimization stage 1 on DHCEN .......
+Running optimization stage 1 on IDES8 .......
+Running optimization stage 1 on \~idesx4.DPHY_RX_TOP_  .......
+Running optimization stage 1 on MUX2_LUT5 .......
+Running optimization stage 1 on MUX2_LUT6 .......
+Running optimization stage 1 on \~word_aligner.DPHY_RX_TOP_  .......
+Running optimization stage 1 on \~word_aligner.DPHY_RX_TOP__1  .......
+Running optimization stage 1 on DFFE .......
+Running optimization stage 1 on RAM16SDP4 .......
+Running optimization stage 1 on \~lane_align_FIFO.DPHY_RX_TOP_  .......
+Running optimization stage 1 on \~lane_align_FIFO.DPHY_RX_TOP__1  .......
+Running optimization stage 1 on \~lane_aligner.DPHY_RX_TOP__2s  .......
+Running optimization stage 1 on \~Aligner.DPHY_RX_TOP__2s_1s_1s  .......
+Running optimization stage 1 on \~IO_Ctrl_RX.DPHY_RX_TOP_  .......
+Running optimization stage 1 on \~DPHY_RX.DPHY_RX_TOP_  .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":5095:7:5095:17|Synthesizing module DPHY_RX_TOP in library work.
+Running optimization stage 1 on DPHY_RX_TOP .......
+@W: CL168 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\DPHY_RX_TOP\DPHY_RX_TOP.v":5272:6:5272:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":1:7:1:27|Synthesizing module control_capture_lane2 in library work.
+
+	bus_width=32'b00000000000000000000000000001000
+	lane_width=32'b00000000000000000000000000000010
+	format=32'b01010010010000010101011100111000
+   Generated name = control_capture_lane2_8s_2s_RAW8
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":62:9:62:11|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":113:14:113:21|Removing redundant assignment.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":19:19:19:23|Object error is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on control_capture_lane2_8s_2s_RAW8 .......
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":122:0:122:5|Pruning unused bits 4 to 3 of q_lv[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":91:0:91:5|Pruning unused bits 4 to 1 of q_fv[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 1 on SDP .......
+Running optimization stage 1 on \~fifo.fifo16b_8b_  .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\fifo_top\fifo16b_8b.v":1612:7:1612:16|Synthesizing module fifo16b_8b in library work.
+Running optimization stage 1 on fifo16b_8b .......
+@W: CL168 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\fifo_top\fifo16b_8b.v":1668:6:1668:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\raw8_lane2.v":2:7:2:16|Synthesizing module raw8_lane2 in library work.
+
+	bus_width=32'b00000000000000000000000000001000
+	lane_width=32'b00000000000000000000000000000010
+   Generated name = raw8_lane2_8s_2s
+@W: CS263 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\raw8_lane2.v":30:8:30:14|Port-width mismatch for port Q. The port definition is 8 bits, but the actual port connection bit width is 9. Adjust either the definition or the instantiation of this port.
+Running optimization stage 1 on raw8_lane2_8s_2s .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\pll_8bit_2lane.v":9:7:9:20|Synthesizing module pll_8bit_2lane in library work.
+Running optimization stage 1 on pll_8bit_2lane .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v":1:7:1:14|Synthesizing module CSI2RAW8 in library work.
+@W: CG781 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v":110:21:110:21|Input line_length_detect on instance u_control_capture is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v":111:14:111:14|Input line_length on instance u_control_capture is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CS263 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v":127:11:127:17|Port-width mismatch for port pixdata. The port definition is 9 bits, but the actual port connection bit width is 8. Adjust either the definition or the instantiation of this port.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\CSI2RAW8.v":29:12:29:21|Object lp_out_dly is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on CSI2RAW8 .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":17:7:17:25|Synthesizing module video_format_detect in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":67:14:67:17|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":77:17:77:23|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\video_format_detect.v":96:26:96:36|Removing redundant assignment.
+Running optimization stage 1 on video_format_detect .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v":12:7:12:14|Synthesizing module ram_line in library work.
+
+	ADDR_WIDTH=32'b00000000000000000000000000001011
+	DATA_WIDTH=32'b00000000000000000000000000001000
+   Generated name = ram_line_11s_8s
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v":40:7:40:7|Removing redundant assignment.
+Running optimization stage 1 on ram_line_11s_8s .......
+@N: CL134 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\ram_line.v":29:0:29:5|Found RAM ram, depth=2048, width=8
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":12:7:12:16|Synthesizing module shift_line in library work.
+
+	ADDR_WIDTH=32'b00000000000000000000000000001011
+	DATA_WIDTH=32'b00000000000000000000000000001000
+   Generated name = shift_line_11s_8s
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":55:20:55:31|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":65:21:65:33|Removing redundant assignment.
+Running optimization stage 1 on shift_line_11s_8s .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":12:7:12:15|Synthesizing module bayer_rgb in library work.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":103:16:103:21|Removing redundant assignment.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":119:16:119:21|Removing redundant assignment.
+Running optimization stage 1 on bayer_rgb .......
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\bayer_rgb.v":141:0:141:5|Pruning unused bits 15 to 1 of dehcnt_d1[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 1 on \~fifo.fifo_dma_write_16_128_  .......
+Running optimization stage 1 on fifo_dma_write_16_128 .......
+Running optimization stage 1 on dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s .......
+Running optimization stage 1 on SDPX9 .......
+Running optimization stage 1 on \~fifo.fifo_dma_read_128_16_  .......
+Running optimization stage 1 on fifo_dma_read_128_16 .......
+Running optimization stage 1 on dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s .......
+Running optimization stage 1 on dma_frame_ctrl_8388608_28s .......
+Running optimization stage 1 on dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s .......
+Running optimization stage 1 on dma_bus_arbiter_28s_128s_1_2_4_8 .......
+Running optimization stage 1 on vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s .......
+@N: CG364 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\frame_buffer\vfb_top.v":26:7:26:13|Synthesizing module vfb_top in library work.
+
+	IMAGE_SIZE=28'b0000100000000000000000000000
+	BURST_WRITE_LENGTH=32'b00000000000000000000010000000000
+	BURST_READ_LENGTH=32'b00000000000000000000010000000000
+	ADDR_WIDTH=32'b00000000000000000000000000011100
+	DATA_WIDTH=32'b00000000000000000000000010000000
+	DQ_WIDTH=32'b00000000000000000000000000010000
+	VIDEO_WIDTH=32'b00000000000000000000000000010000
+   Generated name = vfb_top_8388608_1024s_1024s_28s_128s_16s_16s
+Running optimization stage 1 on vfb_top_8388608_1024s_1024s_28s_128s_16s_16s .......
+Running optimization stage 1 on ELVDS_IOBUF .......
+Running optimization stage 1 on TBUF .......
+Running optimization stage 1 on ELVDS_OBUF .......
+Running optimization stage 1 on OBUF .......
+Running optimization stage 1 on DLL .......
+Running optimization stage 1 on DFFR .......
+Running optimization stage 1 on OSER8_MEM .......
+
+Only the first 100 messages of id 'CG364' are reported. To see all messages use 'report_messages -log C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synlog\dk_video_compiler.srr -id CG364' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG364} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on IDES8_MEM .......
+Running optimization stage 1 on DQS .......
+Running optimization stage 1 on \~ddr_phy_data_io.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on DFFRE .......
+Running optimization stage 1 on DFFSE .......
+Running optimization stage 1 on \~OUT_FIFO.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~IN_FIFO.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~ddr_phy_data_lane.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~ddr_phy_data_io.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 1 on \~OUT_FIFO.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 1 on \~IN_FIFO.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 1 on \~ddr_phy_data_lane.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 1 on DFF .......
+Running optimization stage 1 on DFFS .......
+Running optimization stage 1 on OSER8 .......
+Running optimization stage 1 on \~ddr_phy_cmd_io.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on RAM16SDP2 .......
+Running optimization stage 1 on \~CMD_FIFO.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~ddr_phy_cmd_lane.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~fifo_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on DL .......
+Running optimization stage 1 on \~ddr_memmem_sync.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~ddr_phy_wd.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~ddr_init.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~ddr_phy_top.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_cmd_buffer.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_bank_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_timing_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~fifo_sc.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_wr_data.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_rd_data.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_rank_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gwmc_top.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on \~gw3_phy_mc.DDR3_Memory_Interface_Top  .......
+Running optimization stage 1 on DDR3_Memory_Interface_Top .......
+@W: CL168 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":30386:6:30386:11|Removing instance GND_cZ because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG179 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\syn_code\syn_gen.v":66:13:66:17|Removing redundant assignment.
+Running optimization stage 1 on syn_gen .......
+Running optimization stage 1 on TMDS_PLL .......
+Running optimization stage 1 on TMDS8b10b .......
+Running optimization stage 1 on OSER10 .......
+Running optimization stage 1 on rgb2dvi .......
+Running optimization stage 1 on DVI_TX_Top .......
+@W: CG781 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":708:21:708:21|Input sr_req on instance DDR3_Memory_Interface_Top_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG781 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":709:21:709:21|Input ref_req on instance DDR3_Memory_Interface_Top_inst is undriven; assigning to 0.  Simulation mismatch possible. Either assign the input or remove the declaration. 
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":126:12:126:20|Removing wire tp0_vs_in, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":127:12:127:20|Removing wire tp0_hs_in, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":128:12:128:20|Removing wire tp0_de_in, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":129:12:129:21|Removing wire tp0_data_r, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":130:12:130:21|Removing wire tp0_data_g, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":131:12:131:21|Removing wire tp0_data_b, as there is no assignment to it.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":133:12:133:15|Object vs_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":134:12:134:17|Object cnt_vs is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":144:12:144:17|Removing wire hs_rgb, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":151:13:151:22|Removing wire vd_2fp_clk, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":152:13:152:21|Removing wire vd_2fp_vs, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":153:13:153:21|Removing wire vd_2fp_hs, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":154:13:154:21|Removing wire vd_2fp_de, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":155:13:155:23|Removing wire vd_2fp_data, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":158:13:158:19|Removing wire uni_clk, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":159:13:159:18|Removing wire uni_vs, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":160:13:160:18|Removing wire uni_hs, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":161:13:161:18|Removing wire uni_de, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":162:13:162:20|Removing wire uni_data, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":199:23:199:35|Removing wire off0_syn_data, as there is no assignment to it.
+@W: CG360 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":283:16:283:23|Removing wire dac_data, as there is no assignment to it.
+Running optimization stage 1 on video_top .......
+@W: CL168 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":518:8:518:19|Removing instance pix_pll_inst because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL271 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":765:0:765:5|Pruning unused bits 4 to 2 of Pout_de_dn[4:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on video_top .......
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Optimizing register bit run_cnt[26] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Optimizing register bit run_cnt[27] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Optimizing register bit run_cnt[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Optimizing register bit run_cnt[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Optimizing register bit run_cnt[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Optimizing register bit run_cnt[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":500:0:500:5|Pruning register bits 31 to 26 of run_cnt[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL156 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":785:23:785:97|*Input rgb_data[23:16] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":785:23:785:97|*Input rgb_data[7:0] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL156 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\video_top.v":785:23:785:97|*Input rgb_data[15:8] to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+Running optimization stage 2 on DVI_TX_Top .......
+Running optimization stage 2 on rgb2dvi .......
+Running optimization stage 2 on OSER10 .......
+Running optimization stage 2 on TMDS8b10b .......
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\dvi_tx_top\rgb2dvi.v":332:0:332:5|Optimizing register bit cnt[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\dvi_tx_top\rgb2dvi.v":332:0:332:5|Pruning register bit 0 of cnt[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on TMDS_PLL .......
+Running optimization stage 2 on syn_gen .......
+Running optimization stage 2 on DDR3_Memory_Interface_Top .......
+@W: CL247 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":30301:13:30301:16|Input port bit 27 of addr[27:0] is unused
+
+@N: CL159 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ddr3_memory_interface\ddr3_memory_interface.v":30311:6:30311:12|Input ref_req is unused.
+Running optimization stage 2 on \~gw3_phy_mc.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_top.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_rank_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_rd_data.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_wr_data.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~fifo_sc.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_timing_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_bank_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~gwmc_cmd_buffer.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~ddr_phy_top.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~ddr_init.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~ddr_phy_wd.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~ddr_memmem_sync.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on DL .......
+Running optimization stage 2 on \~fifo_ctrl.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~ddr_phy_cmd_lane.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~CMD_FIFO.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on RAM16SDP2 .......
+Running optimization stage 2 on \~ddr_phy_cmd_io.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on OSER8 .......
+Running optimization stage 2 on DFFS .......
+Running optimization stage 2 on DFF .......
+Running optimization stage 2 on \~ddr_phy_data_lane.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 2 on \~IN_FIFO.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 2 on \~OUT_FIFO.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 2 on \~ddr_phy_data_io.DDR3_Memory_Interface_Top_0  .......
+Running optimization stage 2 on \~ddr_phy_data_lane.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~IN_FIFO.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on \~OUT_FIFO.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on DFFSE .......
+Running optimization stage 2 on DFFRE .......
+Running optimization stage 2 on \~ddr_phy_data_io.DDR3_Memory_Interface_Top  .......
+Running optimization stage 2 on DQS .......
+Running optimization stage 2 on IDES8_MEM .......
+Running optimization stage 2 on OSER8_MEM .......
+Running optimization stage 2 on DFFR .......
+Running optimization stage 2 on DLL .......
+Running optimization stage 2 on OBUF .......
+Running optimization stage 2 on ELVDS_OBUF .......
+Running optimization stage 2 on TBUF .......
+Running optimization stage 2 on ELVDS_IOBUF .......
+Running optimization stage 2 on vfb_top_8388608_1024s_1024s_28s_128s_16s_16s .......
+Running optimization stage 2 on vfb_wrapper_8388608_1024s_1024s_28s_128s_16s_16s .......
+Running optimization stage 2 on dma_bus_arbiter_28s_128s_1_2_4_8 .......
+Extracted state machine for register current_state
+State machine has 4 reachable states with original encodings of:
+   0001
+   0010
+   0100
+   1000
+Running optimization stage 2 on dma_frame_buffer_8388608_1024s_1024s_28s_128s_16s_16s .......
+Running optimization stage 2 on dma_frame_ctrl_8388608_28s .......
+Extracted state machine for register rd_ptr
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Extracted state machine for register wr_ptr
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+Running optimization stage 2 on dma_read_ctrl_1024s_28s_128s_16s_16s_64s_128s_6s_8s .......
+Running optimization stage 2 on fifo_dma_read_128_16 .......
+Running optimization stage 2 on \~fifo.fifo_dma_read_128_16_  .......
+Running optimization stage 2 on SDPX9 .......
+Running optimization stage 2 on dma_write_ctrl_1024s_28s_128s_16s_16s_64s_64s_6s_8s .......
+Running optimization stage 2 on fifo_dma_write_16_128 .......
+Running optimization stage 2 on \~fifo.fifo_dma_write_16_128_  .......
+Running optimization stage 2 on bayer_rgb .......
+Running optimization stage 2 on shift_line_11s_8s .......
+@W: CL246 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\bayer_to_rgb\shift_line.v":23:27:23:35|Input port bits 15 to 11 of delay_num[15:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on ram_line_11s_8s .......
+Running optimization stage 2 on video_format_detect .......
+Running optimization stage 2 on CSI2RAW8 .......
+Running optimization stage 2 on pll_8bit_2lane .......
+Running optimization stage 2 on raw8_lane2_8s_2s .......
+Running optimization stage 2 on fifo16b_8b .......
+Running optimization stage 2 on \~fifo.fifo16b_8b_  .......
+Running optimization stage 2 on SDP .......
+Running optimization stage 2 on control_capture_lane2_8s_2s_RAW8 .......
+@A: CL153 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":19:19:19:23|*Unassigned bits of error are referenced and tied to 0 -- simulation mismatch possible.
+@N: CL159 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":20:19:20:36|Input line_length_detect is unused.
+@N: CL159 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\mipi_csi\control_capture_lane2.v":21:19:21:29|Input line_length is unused.
+Running optimization stage 2 on DPHY_RX_TOP .......
+Running optimization stage 2 on \~DPHY_RX.DPHY_RX_TOP_  .......
+Running optimization stage 2 on \~IO_Ctrl_RX.DPHY_RX_TOP_  .......
+Running optimization stage 2 on \~Aligner.DPHY_RX_TOP__2s_1s_1s  .......
+Running optimization stage 2 on \~lane_aligner.DPHY_RX_TOP__2s  .......
+Running optimization stage 2 on \~lane_align_FIFO.DPHY_RX_TOP__1  .......
+Running optimization stage 2 on \~lane_align_FIFO.DPHY_RX_TOP_  .......
+Running optimization stage 2 on RAM16SDP4 .......
+Running optimization stage 2 on DFFE .......
+Running optimization stage 2 on \~word_aligner.DPHY_RX_TOP__1  .......
+Running optimization stage 2 on \~word_aligner.DPHY_RX_TOP_  .......
+Running optimization stage 2 on MUX2_LUT6 .......
+Running optimization stage 2 on MUX2_LUT5 .......
+Running optimization stage 2 on \~idesx4.DPHY_RX_TOP_  .......
+Running optimization stage 2 on IDES8 .......
+Running optimization stage 2 on DHCEN .......
+Running optimization stage 2 on CLKDIV .......
+Running optimization stage 2 on DFFPE .......
+Running optimization stage 2 on DFFCE .......
+Running optimization stage 2 on LUT1 .......
+Running optimization stage 2 on TLVDS_IBUF .......
+Running optimization stage 2 on IOBUF .......
+Running optimization stage 2 on INV .......
+Running optimization stage 2 on OV5647_Controller .......
+Running optimization stage 2 on I2C_Interface_108_108 .......
+@W: CL161 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\I2C_Interface.v":19:10:19:13|syn_keep not supported on bidirectional ports (port: siod)
+
+Running optimization stage 2 on OV5647_Registers .......
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":70:4:70:9|Pruning register bit 23 of sreg[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":70:4:70:9|Pruning register bit 18 of sreg[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":70:4:70:9|Pruning register bit 15 of sreg[23:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\ov5647_init\OV5647_Registers.v":42:4:42:9|Pruning register bits 31 to 23 of wait_cnt[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 2 on pix_pll .......
+Running optimization stage 2 on PLL .......
+Running optimization stage 2 on wm8978_ctrl .......
+Running optimization stage 2 on audio_send_32 .......
+Running optimization stage 2 on audio_receive_32 .......
+Running optimization stage 2 on wm8978_config_26_32_0_50000000_250000 .......
+Running optimization stage 2 on i2c_dri_Z8 .......
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_dri.v":96:0:96:5|Trying to extract state machine for register cur_state.
+Extracted state machine for register cur_state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+Running optimization stage 2 on i2c_reg_cfg_32_19_30_45 .......
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v":49:0:49:5|Pruning register bit 1 of wl[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\wm8978\i2c_reg_cfg.v":49:0:49:5|Pruning unused register wl[0]. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on Gowin_rPLL .......
+Running optimization stage 2 on rPLL .......
+Running optimization stage 2 on img_data_pkt_640_1440_4032472335_25_1048575_262496240_256_4_2_1_Z7 .......
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":274:0:274:5|Optimizing register bit img_h_cnt[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[5] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[6] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[7] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[8] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[9] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[10] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[11] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[12] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[13] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[14] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Optimizing register bit eth_ifg_cnt[15] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Optimizing register bit img_ifg_cnt[31] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Pruning register bit 31 of img_ifg_cnt[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":264:0:264:5|Pruning register bits 15 to 5 of eth_ifg_cnt[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":274:0:274:5|Pruning register bit 10 of img_h_cnt[10:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Optimizing register bit img_ifg_cnt[30] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Pruning register bit 30 of img_ifg_cnt[30:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Optimizing register bit img_ifg_cnt[29] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Pruning register bit 29 of img_ifg_cnt[29:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL190 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Optimizing register bit img_ifg_cnt[28] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\img_data_pkt.v":240:0:240:5|Pruning register bit 28 of img_ifg_cnt[28:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on async_fifo_512x32b .......
+Running optimization stage 2 on \~fifo.async_fifo_512x32b  .......
+Running optimization stage 2 on DFFNP .......
+Running optimization stage 2 on SDPB .......
+Running optimization stage 2 on sync_fifo_2048x32b .......
+Running optimization stage 2 on GSR .......
+Running optimization stage 2 on \~fifo_sc.sync_fifo_2048x32b  .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on LUT4 .......
+Running optimization stage 2 on LUT3 .......
+Running optimization stage 2 on LUT2 .......
+Running optimization stage 2 on ALU .......
+Running optimization stage 2 on SDPX9B .......
+Running optimization stage 2 on DFFP .......
+Running optimization stage 2 on DFFC .......
+Running optimization stage 2 on eth_ctrl .......
+Running optimization stage 2 on udp_3232235786_3232235878_Z6 .......
+Running optimization stage 2 on udp_tx_Z5 .......
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":139:0:139:5|Trying to extract state machine for register cur_state.
+Extracted state machine for register cur_state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@W: CL246 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_tx.v":33:25:33:32|Input port bits 31 to 24 of crc_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on udp_rx_3232235786_1_2_4_8_16_32_64_2048_Z4 .......
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\udp\udp_rx.v":72:0:72:5|Trying to extract state machine for register cur_state.
+Extracted state machine for register cur_state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+Running optimization stage 2 on arp_3232235786_3232235878_Z3 .......
+Running optimization stage 2 on crc32_d8 .......
+Running optimization stage 2 on arp_tx_Z2 .......
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":99:0:99:5|Trying to extract state machine for register cur_state.
+Extracted state machine for register cur_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+@W: CL246 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_tx.v":31:25:31:32|Input port bits 31 to 24 of crc_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on arp_rx_3232235786_1_2_4_8_16_2054_Z1 .......
+@N: CL201 :"C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\src\arp\arp_rx.v":70:0:70:5|Trying to extract state machine for register cur_state.
+Extracted state machine for register cur_state
+State machine has 5 reachable states with original encodings of:
+   00001
+   00010
+   00100
+   01000
+   10000
+Running optimization stage 2 on gmii_to_rgmii_50s .......
+Running optimization stage 2 on rgmii_tx .......
+Running optimization stage 2 on ODDR .......
+Running optimization stage 2 on rgmii_rx_50s .......
+Running optimization stage 2 on IDDR .......
+Running optimization stage 2 on IODELAY .......
+Running optimization stage 2 on BUFG .......
+Running optimization stage 2 on key_debounceN_50000000_100000000 .......
+Running optimization stage 2 on key_debounceN_50000000_200000000 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:01m:12s; CPU Time elapsed 0h:01m:11s; Memory used current: 159MB peak: 174MB)
+
+Process took 0h:01m:12s realtime, 0h:01m:11s cputime
+
+Process completed successfully.
+# Wed Nov  4 11:37:25 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2020 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: Q-2020.03G-Beta1
+Install: D:\Gowin\Gowin_V1.9.7Beta\SynplifyPro
+OS: Windows 6.2
+
+Hostname: MBENBEN-PC
+
+Implementation : rev_1
+Synopsys Synopsys Netlist Linker, Version comp202003syn, Build 137R, Built May 11 2020 09:06:37, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov  4 11:37:26 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: C:\Users\MaiBenBen\Desktop\dk_video_csi_720_LVCMOS12 udp send img8 state aud\impl\synthesize\rev_1\synwork\dk_video_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:01m:15s; CPU Time elapsed 0h:01m:13s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:01m:15s realtime, 0h:01m:13s cputime
+
+Process completed successfully.
+# Wed Nov  4 11:37:27 2020
+
+###########################################################]
